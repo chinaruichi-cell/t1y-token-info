@@ -1,5 +1,50 @@
 # T1Y Security Scanner Review Email Drafts
 
+## Draft 0: BscScan Token Update Follow-Up
+
+Subject: Re: Update Token Information [BscScan] - T1Y public verification materials added
+
+Hello BscScan Team,
+
+We have added additional public verification materials for the T1Y token update request.
+
+Token information:
+
+- Token name / symbol: T1Y
+- Chain: BNB Smart Chain
+- Token contract: `0x56b776483096c16a3eDD76156Eee47cdcbC05F7f`
+- Official website: `https://chinaruichi-cell.github.io/t1y-token-info/`
+- Project information: `https://chinaruichi-cell.github.io/t1y-token-info/docs.html`
+- Security and ownership status: `https://chinaruichi-cell.github.io/t1y-token-info/security.html`
+- GitHub repository: `https://github.com/chinaruichi-cell/t1y-token-info`
+- Official contact email: `chinaruichi@gmail.com`
+
+New public verification materials in the GitHub repository:
+
+- Contract source: `contracts/T1YToken.sol`, `contracts/T1YTokenExt.sol`, `contracts/T1YFeeSwapper.sol`
+- Deployment record: `deployments/bsc-mainnet-2026-06-26-public.json`
+- BscScan verification metadata: `deployments/bsc-mainnet-2026-06-26-verification.json`
+- BscScan Standard JSON input: `deployments/bsc-mainnet-2026-06-26-standard-input.json`
+- Latest read-only owner check: `deployments/t1y-readonly-owner-check-latest.json`
+- Reproducible owner check script: `scripts/verify-t1y-readonly-state.cjs`
+- Transparency report: `docs/T1Y_TRANSPARENCY_REPORT.md`
+
+Current read-only ownership state:
+
+- `T1YToken.owner()` = `0x0000000000000000000000000000000000000000`
+- `T1YFeeSwapper.owner()` = `0x0000000000000000000000000000000000000000`
+- `T1YTokenExt.owner()` reverts because this deployment does not expose an Ownable owner control path.
+
+The BscScan account has also verified ownership of the submitted token contract address.
+
+Please review the updated materials for the T1Y token information update request.
+
+Thank you.
+
+Best regards,
+
+T1Y Team
+
 ## Draft 1: TokenPocket
 
 Subject: T1Y token security scan review request - owner renounced and scanner notices need refresh
@@ -17,6 +62,8 @@ Token contract: `0x56b776483096c16a3eDD76156Eee47cdcbC05F7f`
 Official website: `https://chinaruichi-cell.github.io/t1y-token-info/`
 
 Security status page: `https://chinaruichi-cell.github.io/t1y-token-info/security.html`
+
+Public verification repository: `https://github.com/chinaruichi-cell/t1y-token-info`
 
 Current TokenPocket scan displays whitelist, mutable-tax, and external-call notices. These notices appear to be based on static code patterns, but the current on-chain ownership state shows that the project can no longer modify the owner-gated controls.
 
@@ -51,6 +98,8 @@ We are requesting a review of the token-security scanner result for T1Y on BNB S
 Token contract: `0x56b776483096c16a3eDD76156Eee47cdcbC05F7f`
 
 Security status page: `https://chinaruichi-cell.github.io/t1y-token-info/security.html`
+
+Public verification repository: `https://github.com/chinaruichi-cell/t1y-token-info`
 
 The scanner currently flags whitelist, mutable-tax, or external-call risks. We understand these mechanisms exist in the verified source, but the owner-gated controls are no longer callable because ownership has been renounced.
 

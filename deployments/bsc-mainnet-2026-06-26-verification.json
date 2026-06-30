@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-06-26T01:21:31.699Z",
+  "network": "bsc-mainnet",
+  "chainId": 56,
+  "compiler": {
+    "version": "0.8.24",
+    "longVersion": "0.8.24+commit.e11b9ed9",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris"
+  },
+  "bscscanSettings": {
+    "compilerType": "Solidity (Standard-Json-Input)",
+    "sourceCodeFile": "deployments/bsc-mainnet-2026-06-26-standard-input.json",
+    "license": "No License / None unless BscScan requires matching SPDX selection"
+  },
+  "contracts": {
+    "T1YToken": {
+      "address": "0x56b776483096c16a3edd76156eee47cdcbc05f7f",
+      "contractPathAndName": "contracts/T1YToken.sol:T1YToken",
+      "constructorArgumentsAbiEncodedNo0x": "",
+      "expectedDeployedCodeBytes": 23435
+    },
+    "T1YTokenExt": {
+      "address": "0x0379d39190e125b530e84254a132563e4eae37d2",
+      "contractPathAndName": "contracts/T1YTokenExt.sol:T1YTokenExt",
+      "constructorArguments": [
+        "0x56b776483096c16a3edd76156eee47cdcbc05f7f"
+      ],
+      "constructorArgumentsAbiEncodedNo0x": "00000000000000000000000056b776483096c16a3edd76156eee47cdcbc05f7f",
+      "expectedDeployedCodeBytes": 14545
+    },
+    "T1YFeeSwapper": {
+      "address": "0x02a2060c730e009b4b2c2b9167f93e7af68d6bbe",
+      "contractPathAndName": "contracts/T1YFeeSwapper.sol:T1YFeeSwapper",
+      "constructorArguments": [
+        "0x56b776483096c16a3edd76156eee47cdcbc05f7f"
+      ],
+      "constructorArgumentsAbiEncodedNo0x": "00000000000000000000000056b776483096c16a3edd76156eee47cdcbc05f7f",
+      "expectedDeployedCodeBytes": 5052
+    }
+  },
+  "explorerLinks": {
+    "T1YToken": "https://bscscan.com/address/0x56b776483096c16a3edd76156eee47cdcbc05f7f",
+    "T1YTokenExt": "https://bscscan.com/address/0x0379d39190e125b530e84254a132563e4eae37d2",
+    "T1YFeeSwapper": "https://bscscan.com/address/0x02a2060c730e009b4b2c2b9167f93e7af68d6bbe"
+  }
+}

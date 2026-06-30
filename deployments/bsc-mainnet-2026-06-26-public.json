@@ -1,0 +1,257 @@
+{
+  "network": "bsc-mainnet",
+  "chainId": 56,
+  "deployer": "0x13ff54ad16dde8a20b0f4c4537397169b72b71f1",
+  "contracts": {
+    "T1YToken": {
+      "address": "0x56b776483096c16a3edd76156eee47cdcbc05f7f",
+      "txHash": "0x50641f0f88123b368ed88d3a31d9a5a0ac5f9d6da882f3b1dc3a2443d2b459f4",
+      "blockNumber": 106394396,
+      "gasUsed": "8813055",
+      "owner": "0x13ff54aD16ddE8a20B0f4c4537397169b72b71F1",
+      "pancakePair": "0x9d3153f4D033A54FbC8199eaA195655cecc92262",
+      "tokenExt": "0x0379d39190E125b530E84254a132563E4EaE37d2",
+      "feeSwapper": "0x02A2060c730e009b4b2c2B9167f93e7af68D6Bbe"
+    },
+    "T1YTokenExt": {
+      "address": "0x0379d39190e125b530e84254a132563e4eae37d2",
+      "txHash": "0x12dab37ab4a05d0c24d01fe14693443a013d832622b5932702ef4d5ace8aa429",
+      "blockNumber": 106394820,
+      "gasUsed": "3469675",
+      "T1Y_TOKEN": "0x56b776483096c16a3eDD76156Eee47cdcbC05F7f",
+      "pancakePair": "0x9d3153f4D033A54FbC8199eaA195655cecc92262"
+    },
+    "T1YFeeSwapper": {
+      "address": "0x02a2060c730e009b4b2c2b9167f93e7af68d6bbe",
+      "txHash": "0xfdafdb6bb94db0507761304b33a4d690767f33028c6f0a2e025866c9121bdb74",
+      "blockNumber": 106395065,
+      "gasUsed": "1242296",
+      "owner": "0x13ff54aD16ddE8a20B0f4c4537397169b72b71F1",
+      "T1Y_TOKEN": "0x56b776483096c16a3eDD76156Eee47cdcbC05F7f"
+    }
+  },
+  "postDeployChecks": {
+    "T1YToken": {
+      "name": "T1Y",
+      "symbol": "T1Y",
+      "decimals": 18,
+      "totalSupply": "133000100000000000000000000",
+      "baiAddress": "0x13ff54aD16ddE8a20B0f4c4537397169b72b71F1",
+      "INITIAL_SUPERIOR": "0x86C4ba8B7634A13a2E8252fE51F065De0A6f96a0",
+      "WBNB": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "ROUTER": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+      "deployedCodeBytes": 23435,
+      "tokenExt": "0x0379d39190E125b530E84254a132563E4EaE37d2",
+      "feeSwapper": "0x02A2060c730e009b4b2c2B9167f93e7af68D6Bbe"
+    },
+    "T1YTokenExt": {
+      "T1Y_TOKEN": "0x56b776483096c16a3eDD76156Eee47cdcbC05F7f",
+      "pancakePair": "0x9d3153f4D033A54FbC8199eaA195655cecc92262",
+      "WBNB": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "USDT": "0x55d398326f99059fF775485246999027B3197955",
+      "ROUTER": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+      "deployedCodeBytes": 14545
+    },
+    "T1YFeeSwapper": {
+      "owner": "0x13ff54aD16ddE8a20B0f4c4537397169b72b71F1",
+      "T1Y_TOKEN": "0x56b776483096c16a3eDD76156Eee47cdcbC05F7f",
+      "WBNB": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "USDT": "0x55d398326f99059fF775485246999027B3197955",
+      "ROUTER": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+      "autoSwapEnabled": true,
+      "minSwapAmount": "1000000000000000",
+      "slippageBps": "1000",
+      "deployedCodeBytes": 5052
+    }
+  },
+  "transactions": {
+    "settokenExt": {
+      "to": "0x56b776483096c16a3edd76156eee47cdcbc05f7f",
+      "function": "settokenExt(address)",
+      "caller": "0x13ff54ad16dde8a20b0f4c4537397169b72b71f1",
+      "args": [
+        "0x0379d39190e125b530e84254a132563e4eae37d2"
+      ],
+      "txHash": "0x6b413a6ff85a43c818802202538b0e574b92cf22e2ee9037f10ee980adc7e80f",
+      "blockNumber": 106395412,
+      "gasUsed": "68356"
+    },
+    "setFeeSwapper": {
+      "to": "0x56b776483096c16a3edd76156eee47cdcbc05f7f",
+      "function": "setFeeSwapper(address)",
+      "caller": "0x13ff54ad16dde8a20b0f4c4537397169b72b71f1",
+      "args": [
+        "0x02a2060c730e009b4b2c2b9167f93e7af68d6bbe"
+      ],
+      "txHash": "0x587674e5c59b8b005e30ac5839f83270691d26fb7d9984794dde647b627ef4e2",
+      "blockNumber": 106395676,
+      "gasUsed": "68410"
+    },
+    "approveRouterForInitialLiquidity": {
+      "to": "0x56b776483096c16a3eDD76156Eee47cdcbC05F7f",
+      "function": "approve(address,uint256)",
+      "caller": "0x13ff54aD16ddE8a20B0f4c4537397169b72b71F1",
+      "args": [
+        "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+        "130000000000000000000000000"
+      ],
+      "txHash": "0x5a5a3230b7a938ef0d8c63e12ee47e98d0641245c346d8c8a07ea22d36f59549",
+      "blockNumber": 106399598,
+      "gasUsed": "46463",
+      "allowanceAfter": "130000000000000000000000000"
+    },
+    "addInitialLiquidityETH": {
+      "to": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+      "function": "addLiquidityETH(address,uint256,uint256,uint256,address,uint256)",
+      "caller": "0x13ff54aD16ddE8a20B0f4c4537397169b72b71F1",
+      "args": [
+        "0x56b776483096c16a3eDD76156Eee47cdcbC05F7f",
+        "130000000000000000000000000",
+        "130000000000000000000000000",
+        "5000000000000000000",
+        "0x13ff54aD16ddE8a20B0f4c4537397169b72b71F1",
+        "1782524898"
+      ],
+      "value": "5000000000000000000",
+      "txHash": "0x677fff9752bc32166e43a3ddca46ce36e461f072fa007c8ca10b2c439cbe615f",
+      "blockNumber": 106399981,
+      "gasUsed": "332999",
+      "pair": "0x9d3153f4D033A54FbC8199eaA195655cecc92262",
+      "token0": "0x56b776483096c16a3eDD76156Eee47cdcbC05F7f",
+      "token1": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "reservesAfter": {
+        "reserve0": "130000000000000000000000000",
+        "reserve1": "5000000000000000000",
+        "blockTimestampLast": 1782438525
+      },
+      "lpBalanceAfter": "25495097567963924149141",
+      "pairTotalSupplyAfter": "25495097567963924150141",
+      "deployerBalancesAfter": {
+        "bnb": "0.0203979373",
+        "t1y": "0",
+        "allowance": "0"
+      },
+      "postReadIssues": {}
+    }
+  },
+  "finalWiringCheck": {
+    "T1YToken": {
+      "owner": "0x13ff54aD16ddE8a20B0f4c4537397169b72b71F1",
+      "pancakePair": "0x9d3153f4D033A54FbC8199eaA195655cecc92262",
+      "tokenExt": "0x0379d39190E125b530E84254a132563E4EaE37d2",
+      "feeSwapper": "0x02A2060c730e009b4b2c2B9167f93e7af68D6Bbe",
+      "WBNB": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "ROUTER": "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+    },
+    "T1YTokenExt": {
+      "T1Y_TOKEN": "0x56b776483096c16a3eDD76156Eee47cdcbC05F7f",
+      "pancakePair": "0x9d3153f4D033A54FbC8199eaA195655cecc92262"
+    },
+    "T1YFeeSwapper": {
+      "owner": "0x13ff54aD16ddE8a20B0f4c4537397169b72b71F1",
+      "T1Y_TOKEN": "0x56b776483096c16a3eDD76156Eee47cdcbC05F7f",
+      "autoSwapEnabled": true,
+      "minSwapAmount": "1000000000000000"
+    }
+  },
+  "initialLiquidity": {
+    "to": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "function": "addLiquidityETH(address,uint256,uint256,uint256,address,uint256)",
+    "caller": "0x13ff54aD16ddE8a20B0f4c4537397169b72b71F1",
+    "args": [
+      "0x56b776483096c16a3eDD76156Eee47cdcbC05F7f",
+      "130000000000000000000000000",
+      "130000000000000000000000000",
+      "5000000000000000000",
+      "0x13ff54aD16ddE8a20B0f4c4537397169b72b71F1",
+      "1782524898"
+    ],
+    "value": "5000000000000000000",
+    "txHash": "0x677fff9752bc32166e43a3ddca46ce36e461f072fa007c8ca10b2c439cbe615f",
+    "blockNumber": 106399981,
+    "gasUsed": "332999",
+    "pair": "0x9d3153f4D033A54FbC8199eaA195655cecc92262",
+    "token0": "0x56b776483096c16a3eDD76156Eee47cdcbC05F7f",
+    "token1": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "reservesAfter": {
+      "reserve0": "130000000000000000000000000",
+      "reserve1": "5000000000000000000",
+      "blockTimestampLast": 1782438525
+    },
+    "lpBalanceAfter": "25495097567963924149141",
+    "pairTotalSupplyAfter": "25495097567963924150141",
+    "deployerBalancesAfter": {
+      "bnb": "0.0203979373",
+      "t1y": "0",
+      "allowance": "0"
+    },
+    "postReadIssues": {}
+  },
+  "postLiquiditySmoke": {
+    "checkedAt": "2026-06-26T01:51:05.810Z",
+    "chainId": 56,
+    "initialLiquidity": {
+      "pair": "0x9d3153f4D033A54FbC8199eaA195655cecc92262",
+      "reserveT1Y": "130000000000000000000000000",
+      "reserveWBNB": "5000000000000000000",
+      "lpBalanceDeployer": "25495097567963924149141",
+      "pairTotalSupply": "25495097567963924150141"
+    },
+    "routerQuote": {
+      "input": "0.045 WBNB",
+      "outputT1Y": "1156690808268767142973951"
+    },
+    "simulatedDeposit": {
+      "from": "0x86C4ba8B7634A13a2E8252fE51F065De0A6f96a0",
+      "value": "0.15 BNB",
+      "stateOverrideBalance": "1 BNB",
+      "result": "ok"
+    },
+    "owners": {
+      "T1YToken": "0x13ff54aD16ddE8a20B0f4c4537397169b72b71F1",
+      "T1YFeeSwapper": "0x13ff54aD16ddE8a20B0f4c4537397169b72b71F1"
+    }
+  },
+  "sourceVerification": {
+    "checkedAt": "2026-06-26T01:54:23.920Z",
+    "api": "etherscan-v2",
+    "results": {
+      "T1YToken": {
+        "submit": {
+          "status": "1",
+          "message": "OK",
+          "result": "rykhgwsnpfxhm33v5e3iztfpiw5pmjjwmnrczmlaewzhxvxagp"
+        },
+        "status": {
+          "status": "1",
+          "message": "OK",
+          "result": "Pass - Verified"
+        }
+      },
+      "T1YTokenExt": {
+        "submit": {
+          "status": "1",
+          "message": "OK",
+          "result": "kk1nnbhsuhk7aqeukj51kaeuxh97vhgbq6zm3ptksrjvl4i1cj"
+        },
+        "status": {
+          "status": "1",
+          "message": "OK",
+          "result": "Pass - Verified"
+        }
+      },
+      "T1YFeeSwapper": {
+        "submit": {
+          "status": "1",
+          "message": "OK",
+          "result": "5cztmpd6umwrp7hwyqkfatpgfgnsxzuc2ba1wrxwrsepcimwur"
+        },
+        "status": {
+          "status": "1",
+          "message": "OK",
+          "result": "Pass - Verified"
+        }
+      }
+    }
+  }
+}

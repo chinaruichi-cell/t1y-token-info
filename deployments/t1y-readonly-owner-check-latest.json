@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-06-30T16:39:11.388Z",
+  "block": 107286378,
+  "addresses": {
+    "T1Y_TOKEN": "0x56b776483096c16a3eDD76156Eee47cdcbC05F7f",
+    "T1Y_TOKEN_EXT": "0x0379d39190e125b530e84254a132563e4eae37d2",
+    "T1Y_FEE_SWAPPER": "0x02a2060c730e009b4b2c2B9167f93e7af68D6Bbe",
+    "WBNB": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "PANCAKE_FACTORY": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73"
+  },
+  "results": {
+    "tokenOwner": "0x0000000000000000000000000000000000000000",
+    "swapperOwner": "0x0000000000000000000000000000000000000000",
+    "extOwner": "REVERT_OR_ERROR: execution reverted: 0x",
+    "pancakePair": "0x9d3153f4d033a54fbc8199eaa195655cecc92262",
+    "tokenExt": "0x0379d39190e125b530e84254a132563e4eae37d2",
+    "feeSwapper": "0x02a2060c730e009b4b2c2b9167f93e7af68d6bbe",
+    "factoryPair": "0x9d3153f4d033a54fbc8199eaa195655cecc92262"
+  },
+  "checks": [
+    {
+      "name": "tokenOwner",
+      "expected": "0x0000000000000000000000000000000000000000",
+      "actual": "0x0000000000000000000000000000000000000000",
+      "pass": true
+    },
+    {
+      "name": "swapperOwner",
+      "expected": "0x0000000000000000000000000000000000000000",
+      "actual": "0x0000000000000000000000000000000000000000",
+      "pass": true
+    },
+    {
+      "name": "pancakePair",
+      "expected": "0x9d3153f4d033a54fbc8199eaa195655cecc92262",
+      "actual": "0x9d3153f4d033a54fbc8199eaa195655cecc92262",
+      "pass": true
+    },
+    {
+      "name": "tokenExt",
+      "expected": "0x0379d39190e125b530e84254a132563e4eae37d2",
+      "actual": "0x0379d39190e125b530e84254a132563e4eae37d2",
+      "pass": true
+    },
+    {
+      "name": "feeSwapper",
+      "expected": "0x02a2060c730e009b4b2c2b9167f93e7af68d6bbe",
+      "actual": "0x02a2060c730e009b4b2c2b9167f93e7af68d6bbe",
+      "pass": true
+    },
+    {
+      "name": "factoryPair",
+      "expected": "0x9d3153f4d033a54fbc8199eaa195655cecc92262",
+      "actual": "0x9d3153f4d033a54fbc8199eaa195655cecc92262",
+      "pass": true
+    }
+  ],
+  "extOwnerExpectedRevert": true,
+  "pass": true
+}
