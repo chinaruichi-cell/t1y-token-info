@@ -17,6 +17,7 @@ reviewers to public evidence instead of private files.
 | Operation guide | `https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html` |
 | Security status | `https://chinaruichi-cell.github.io/t1y-token-info/security.html` |
 | Team and public representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
+| Copy-ready form payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
 | Official email | `chinaruichi@gmail.com` |
 
@@ -79,3 +80,12 @@ address until a project-domain mailbox is available.
 If an explorer requires an individual professional profile, the project should
 submit only a real profile controlled by the named person and updated to show
 T1Y involvement.
+
+## Resubmission Payload
+
+The copy-ready token update form values are published at:
+
+`https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md`
+
+This payload should be used only through the verified-address token update form
+after logging in to the BscScan account.

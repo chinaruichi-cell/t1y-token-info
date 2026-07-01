@@ -54,6 +54,7 @@ Recommended field values:
 | Team / Representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
 | Explorer Review Package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
 | Review Summary | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_SUMMARY.md` |
+| Copy-ready Form Payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
 | Project Sector | `DeFi` |
 
 Neutral project description:
@@ -74,9 +75,11 @@ This resubmission adds a fuller public information package after the previous
 review response. Public evidence now includes:
 
 - expanded whitepaper
+- downloadable whitepaper PDF
 - operation guide
 - team/public representative statement
 - explorer review package
+- BscScan review summary
 - public logo SVG and PNG
 - GitHub repository with deployment and verification JSON
 - latest owner/wiring check JSON
