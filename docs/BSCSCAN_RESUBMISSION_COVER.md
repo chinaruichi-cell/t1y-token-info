@@ -34,6 +34,8 @@ expanded in the following areas:
 | Team transparency | The public representative page now explains the T1Y Team / CHINARUICHI BscScan account model without unsupported personal claims. |
 | Review response | A reviewer-response document maps BscScan's common review notes to public T1Y evidence links. |
 | Latest review gap analysis | A latest-review gap analysis maps BscScan's newest feedback categories to current evidence, honest weak points, and next actions. |
+| Due diligence FAQ | A reviewer and user FAQ answers common evidence, ownership, audit-status, sale-status, and warning-status questions. |
+| Official channels notice | A channel notice defines official links and warns against unofficial channels or impersonation. |
 | Form payload | A copy-ready token update form payload is published to reduce field mismatch. |
 | Burn evidence | Burn transfer evidence and representative transaction hashes are published in the submission prep file. |
 | Ownership evidence | Owner-renounce status and latest read-only owner/wiring check JSON are published. |
@@ -73,6 +75,8 @@ The official contact email chinaruichi@gmail.com is intentionally published on t
 | Latest review gap analysis | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md` |
 | Form payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
 | Domain email readiness | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md` |
+| Due diligence FAQ | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DUE_DILIGENCE_FAQ.md` |
+| Official channels notice | `https://chinaruichi-cell.github.io/t1y-token-info/docs/OFFICIAL_CHANNELS_AND_IMPERSONATION_NOTICE.md` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
 
 ## Remaining Weak Point

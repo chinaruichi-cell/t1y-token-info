@@ -146,6 +146,18 @@ Domain Email Readiness:
 https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md
 ```
 
+Due Diligence FAQ:
+
+```text
+https://chinaruichi-cell.github.io/t1y-token-info/docs/DUE_DILIGENCE_FAQ.md
+```
+
+Official Channels and Impersonation Notice:
+
+```text
+https://chinaruichi-cell.github.io/t1y-token-info/docs/OFFICIAL_CHANNELS_AND_IMPERSONATION_NOTICE.md
+```
+
 ## Sale Information
 
 Public Sale / ICO / IEO:
@@ -206,6 +218,8 @@ Public evidence now includes:
 - BscScan latest review gap analysis
 - BscScan resubmission cover note
 - domain email readiness plan
+- due diligence FAQ
+- official channels and impersonation notice
 - public logo SVG and PNG
 - GitHub repository with deployment and verification JSON
 - latest owner/wiring check JSON

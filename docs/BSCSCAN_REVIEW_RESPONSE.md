@@ -67,4 +67,6 @@ real public professional information that can be independently checked.
 | Latest review gap analysis | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md` |
 | Resubmission cover | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_RESUBMISSION_COVER.md` |
 | Domain email readiness | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md` |
+| Due diligence FAQ | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DUE_DILIGENCE_FAQ.md` |
+| Official channels notice | `https://chinaruichi-cell.github.io/t1y-token-info/docs/OFFICIAL_CHANNELS_AND_IMPERSONATION_NOTICE.md` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
