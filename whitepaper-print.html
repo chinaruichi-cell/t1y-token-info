@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>T1Y Whitepaper PDF Edition</title>
+    <meta name="description" content="Printable whitepaper edition for T1Y on BNB Smart Chain.">
+    <style>
+      :root {
+        --text: #141414;
+        --muted: #575f6f;
+        --line: #d7dbe2;
+        --gold: #b7892d;
+        --blue: #064f9e;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: var(--text);
+        background: #ffffff;
+        font: 13px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: 760px;
+        margin: 0 auto;
+        padding: 42px 0 56px;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: 78px 1fr;
+        gap: 18px;
+        align-items: center;
+        padding-bottom: 22px;
+        border-bottom: 2px solid var(--gold);
+      }
+
+      img {
+        width: 78px;
+        height: 78px;
+        border-radius: 14px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 34px;
+        line-height: 1.08;
+        letter-spacing: 0;
+      }
+
+      .subtitle {
+        margin: 8px 0 0;
+        color: var(--muted);
+      }
+
+      section {
+        padding: 20px 0;
+        border-bottom: 1px solid var(--line);
+        break-inside: avoid;
+      }
+
+      h2 {
+        margin: 0 0 10px;
+        color: var(--gold);
+        font-size: 16px;
+        letter-spacing: 0;
+      }
+
+      h3 {
+        margin: 14px 0 8px;
+        font-size: 13px;
+      }
+
+      p {
+        margin: 0 0 10px;
+      }
+
+      ul,
+      ol {
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      li + li {
+        margin-top: 5px;
+      }
+
+      dl {
+        display: grid;
+        grid-template-columns: 190px 1fr;
+        gap: 8px 14px;
+        margin: 0;
+      }
+
+      dt {
+        color: var(--muted);
+      }
+
+      dd {
+        margin: 0;
+        overflow-wrap: anywhere;
+      }
+
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.92em;
+      }
+
+      a {
+        color: var(--blue);
+        text-decoration: none;
+      }
+
+      .notice {
+        color: var(--muted);
+      }
+
+      @page {
+        size: A4;
+        margin: 16mm 15mm;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="./assets/t1y-official-logo-512.png" alt="T1Y official logo">
+        <div>
+          <h1>T1Y Whitepaper</h1>
+          <p class="subtitle">BNB Smart Chain on-chain liquidity and hashrate incentive protocol</p>
+          <p class="subtitle">Public PDF edition prepared for users, explorers, wallets, and scanner review.</p>
+        </div>
+      </header>
+
+      <section>
+        <h2>1. Executive Summary</h2>
+        <p>
+          T1Y is a BNB Smart Chain token protocol built around the T1Y/WBNB
+          liquidity pool, contract-defined participation, LP-related accounting,
+          static and dynamic hashrate records, referral logic, node-level reward
+          paths, sell-impact logic, and recurring burn behavior.
+        </p>
+        <p>
+          The project is presented as an on-chain protocol. Public verification
+          materials include verified source links, deployment metadata,
+          owner-renounce evidence, official contract addresses, public logo
+          files, operation notes, burn evidence, and risk disclosures.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Official Public References</h2>
+        <dl>
+          <dt>Official website</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/</dd>
+          <dt>Project information</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/docs.html</dd>
+          <dt>Whitepaper HTML</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html</dd>
+          <dt>Operation guide</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html</dd>
+          <dt>Security status</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/security.html</dd>
+          <dt>Team statement</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/team.html</dd>
+          <dt>Explorer review package</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html</dd>
+          <dt>GitHub repository</dt>
+          <dd>https://github.com/chinaruichi-cell/t1y-token-info</dd>
+          <dt>Official contact email</dt>
+          <dd>chinaruichi@gmail.com</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>3. Contract Set</h2>
+        <dl>
+          <dt>T1YToken</dt>
+          <dd><code>0x56b776483096c16a3eDD76156Eee47cdcbC05F7f</code></dd>
+          <dt>T1YTokenExt</dt>
+          <dd><code>0x0379d39190E125b530E84254a132563E4EaE37d2</code></dd>
+          <dt>T1YFeeSwapper</dt>
+          <dd><code>0x02A2060c730e009b4b2c2B9167f93e7af68D6Bbe</code></dd>
+          <dt>T1Y/WBNB Pair</dt>
+          <dd><code>0x9d3153f4D033A54FbC8199eaA195655cecc92262</code></dd>
+          <dt>PancakeSwap Router</dt>
+          <dd><code>0x10ED43C718714eb63d5aA57B78B54704E256024E</code></dd>
+          <dt>WBNB</dt>
+          <dd><code>0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c</code></dd>
+          <dt>Burn address</dt>
+          <dd><code>0x000000000000000000000000000000000000dEaD</code></dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>4. Design Principles</h2>
+        <ul>
+          <li><strong>On-chain verifiability:</strong> Contract state, token transfers, LP state, burn transfers, and owner status can be checked on BscScan.</li>
+          <li><strong>Public evidence:</strong> Deployment JSON, verification JSON, source links, and owner-check outputs are published for independent review.</li>
+          <li><strong>Non-custodial operation:</strong> Users interact through their own wallets and remain responsible for verifying addresses and wallet prompts.</li>
+          <li><strong>Explicit risk disclosure:</strong> Non-standard token behavior is documented instead of hidden.</li>
+          <li><strong>No guaranteed outcome:</strong> The project does not guarantee price performance, yield, redemption value, or principal protection.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Participation and Accounting Model</h2>
+        <p>
+          T1Y participation is based on contract-defined BNB transfer and LP
+          accounting paths. Direct market purchases through PancakeSwap are not
+          described as equivalent to the contract deposit record. Users should
+          follow the operation guide and verify all addresses before action.
+        </p>
+        <ul>
+          <li>Static hashrate records relate to user participation and contract-defined accounting.</li>
+          <li>Dynamic hashrate records relate to referral and team-state accounting defined by contract state.</li>
+          <li>Node-level reward paths involve T1Y and WBNB accounting.</li>
+          <li>Reward claiming and LP redemption require specific contract-trigger paths.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>6. Burn and Liquidity Transparency</h2>
+        <p>
+          T1Y includes contract-defined burn behavior. Burn transfers can be
+          reviewed by filtering BscScan token transfers for the standard dead
+          address. The submission preparation notes publish representative burn
+          transaction examples and the public BscScan filtered page.
+        </p>
+        <dl>
+          <dt>Burn transfer page</dt>
+          <dd>https://bscscan.com/token/0x56b776483096c16a3eDD76156Eee47cdcbC05F7f?a=0x000000000000000000000000000000000000dEaD</dd>
+          <dt>Evidence notes</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_SUBMISSION_PREP.md</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>7. Ownership and Source Transparency</h2>
+        <ul>
+          <li>T1YToken owner is <code>0x0000000000000000000000000000000000000000</code>.</li>
+          <li>T1YFeeSwapper owner is <code>0x0000000000000000000000000000000000000000</code>.</li>
+          <li>T1YTokenExt does not expose an Ownable owner control path in this deployment.</li>
+          <li>Source verification metadata and compiler standard input are publicly available in the GitHub repository and the website deployment files.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>8. Sale and Allocation Disclosure</h2>
+        <p>
+          This website does not publish an ICO, IEO, public-sale, private-sale,
+          seed-sale, presale, premine, or guaranteed-return campaign. Users
+          should rely on verified contract state and their own risk assessment.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Public Representative</h2>
+        <p>
+          T1Y is represented publicly by the T1Y Team through the official
+          website, GitHub repository, BscScan account used for token submissions,
+          and official contact email. The project publishes only verified
+          project-controlled public channels and does not add unsupported
+          personal-profile claims.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Risk Disclosures</h2>
+        <ul>
+          <li>T1Y is not a plain transfer-only token and includes non-standard BEP-20 behavior.</li>
+          <li>Scanner products may flag whitelist, external call, fee, sell-impact, or balance-display behavior.</li>
+          <li>Referral, node, reward, and redemption paths depend on contract state and correct wallet operation.</li>
+          <li>Market price, liquidity depth, slippage, wallet security, and smart-contract risks remain.</li>
+          <li>This document is not financial advice and does not guarantee any outcome.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>11. Explorer Submission Notes</h2>
+        <p>
+          Reviewers can use the Explorer Review Package as the main index for
+          BscScan-style token information requirements. It maps official
+          website, email, logo files, source verification, owner status,
+          deployment evidence, burn evidence, and risk disclosures to public
+          URLs.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

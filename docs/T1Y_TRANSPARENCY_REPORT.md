@@ -11,10 +11,12 @@ This document is a public transparency report for T1Y. It is **not a formal thir
 | Official website | `https://chinaruichi-cell.github.io/t1y-token-info/` |
 | Project information | `https://chinaruichi-cell.github.io/t1y-token-info/docs.html` |
 | Whitepaper | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
+| Whitepaper PDF | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf` |
 | Operation guide | `https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html` |
 | Security status | `https://chinaruichi-cell.github.io/t1y-token-info/security.html` |
 | Team & public representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
 | Explorer review package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
+| BscScan review summary | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_SUMMARY.md` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
 | Official contact email | `chinaruichi@gmail.com` |
 

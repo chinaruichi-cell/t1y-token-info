@@ -49,9 +49,11 @@ Recommended field values:
 | Project Email Address | `chinaruichi@gmail.com` |
 | Logo SVG | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-bscscan-logo-32.svg` |
 | Whitepaper | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
+| Whitepaper PDF | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf` |
 | GitHub | `https://github.com/chinaruichi-cell/t1y-token-info` |
 | Team / Representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
 | Explorer Review Package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
+| Review Summary | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_SUMMARY.md` |
 | Project Sector | `DeFi` |
 
 Neutral project description:
