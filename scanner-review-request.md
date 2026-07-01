@@ -10,7 +10,7 @@ Official website: `https://t1y.org/`
 
 Security status page: `https://t1y.org/security.html`
 
-Contact email: `chinaruichi@gmail.com`
+Contact email: `contact@t1y.org`
 
 ## Request
 

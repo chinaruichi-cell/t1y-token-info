@@ -44,12 +44,11 @@ scanner review:
 
 ## Official Contact and Public Representative
 
-- Official contact email: `chinaruichi@gmail.com`
+- Official contact email: `contact@t1y.org`
 - Public representative for explorer/scanner communications: `T1Y Team / CHINARUICHI BscScan account`
 
-The Gmail address above is intentionally published on the official website as
-the project contact address for BscScan/explorer verification until a
-project-domain mailbox is available. The site does not publish private keys,
+The email address above is the active project-domain contact address for
+BscScan/explorer verification. The site does not publish private keys,
 mnemonics, RPC endpoints, signer data, or wallet credentials.
 
 The site publishes only verified project-controlled public channels and does not
@@ -74,7 +73,7 @@ evidence links:
 - copy-ready BscScan token update form payload
 - reviewer-note response mapped to BscScan's latest feedback
 - latest review gap analysis mapped to BscScan's newest feedback categories
-- resubmission cover note and domain-email readiness plan
+- resubmission cover note and domain-email readiness status
 - due diligence FAQ and official channels notice
 
 To reproduce the owner and wiring check:

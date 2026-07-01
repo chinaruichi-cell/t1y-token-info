@@ -17,7 +17,7 @@ Token information:
 - Project information: `https://t1y.org/docs.html`
 - Security and ownership status: `https://t1y.org/security.html`
 - GitHub repository: `https://github.com/chinaruichi-cell/t1y-token-info`
-- Official contact email: `chinaruichi@gmail.com`
+- Official contact email: `contact@t1y.org`
 
 New public verification materials in the GitHub repository:
 
@@ -85,7 +85,7 @@ Please help refresh or review the displayed risk items so users are not misled i
 
 Thank you.
 
-Contact: chinaruichi@gmail.com
+Contact: contact@t1y.org
 
 ## Draft 2: GoPlus / CertiK Scanner Data Source
 
@@ -125,7 +125,7 @@ Please review whether these items can be displayed as static mechanism notices r
 
 Thank you.
 
-Contact: chinaruichi@gmail.com
+Contact: contact@t1y.org
 
 ## Customer-Facing Chinese Explanation
 

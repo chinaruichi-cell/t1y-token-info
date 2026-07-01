@@ -12,7 +12,7 @@ unofficial or impersonating materials.
 | --- | --- |
 | Official website | `https://t1y.org/` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
-| Official contact email | `chinaruichi@gmail.com` |
+| Official contact email | `contact@t1y.org` |
 | BscScan token page | `https://bscscan.com/token/0x56b776483096c16a3eDD76156Eee47cdcbC05F7f` |
 | Explorer review package | `https://t1y.org/explorer-review.html` |
 | Whitepaper | `https://t1y.org/whitepaper.html` |
@@ -59,9 +59,9 @@ Any request for those items should be treated as unofficial and unsafe.
 
 ## Reviewer Note
 
-The current official contact email is a public Gmail address because a
-project-domain mailbox has not yet been created. The Gmail address is published
-on the official website and is used for BscScan and scanner communications.
+The current official contact email is the project-domain mailbox
+`contact@t1y.org`. It is published on the official website and is used for
+BscScan, wallet, and scanner communications.
 
 Domain-email readiness plan:
 
@@ -78,4 +78,3 @@ listed above, it should be treated as unverified until it is confirmed through:
 2. the GitHub repository,
 3. the BscScan token page, or
 4. the official contact email.
-

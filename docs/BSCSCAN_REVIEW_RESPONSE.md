@@ -14,7 +14,7 @@ not replace the verified-address token update form.
 | Chain | `BNB Smart Chain` |
 | Token contract | `0x56b776483096c16a3eDD76156Eee47cdcbC05F7f` |
 | Official website | `https://t1y.org/` |
-| Official contact | `chinaruichi@gmail.com` |
+| Official contact | `contact@t1y.org` |
 | Public representative | `T1Y Team / CHINARUICHI BscScan account` |
 
 ## Response to Common Review Notes
@@ -26,7 +26,7 @@ not replace the verified-address token update form.
 | Placeholders, images, or links are not updated | The site publishes the official 32x32 SVG logo, PNG logo files, verified contract links, deployment JSON, whitepaper PDF, and public review materials. Internal local link checks are run before publishing changes. | `assets/t1y-bscscan-logo-32.svg`, `assets/t1y-official-logo-512.png`, `docs/BSCSCAN_FORM_PAYLOAD.md` |
 | Some provided links are broken | The public review package centralizes the main reviewer links. The latest publication pass verified the payload, docs, explorer review package, and review summary online with HTTP 200 responses. | `explorer-review.html`, `docs/BSCSCAN_REVIEW_SUMMARY.md` |
 | Founder and team information is not transparent | The project publishes a public representative page using a truthful organization-level model: T1Y Team / CHINARUICHI BscScan account. It does not publish unsupported personal-profile claims. If BscScan requires an individual profile, only a real profile controlled by that person should be submitted. | `team.html` |
-| Sender email is not on the same domain as the website | The current official email is `chinaruichi@gmail.com`, and it is intentionally published on the official website as the project contact until a project-domain mailbox is available. This is disclosed on the website, team page, and form payload. | `index.html`, `team.html`, `docs/BSCSCAN_FORM_PAYLOAD.md` |
+| Sender email is not on the same domain as the website | The current official email is `contact@t1y.org`, which uses the same domain as the official website and is intentionally published as the project contact. | `index.html`, `team.html`, `docs/BSCSCAN_FORM_PAYLOAD.md` |
 | Information may be false or misrepresent another entity | The published materials use project-controlled channels, verified contract addresses, BscScan source links, deployment records, and owner-check outputs. The project does not claim affiliation with unrelated public entities. | GitHub repository, BscScan contract pages, `deployments/t1y-readonly-owner-check-latest.json` |
 | Token name or symbol may raise brand concerns | The submitted token name and symbol are `T1Y`. The project uses this as its own token/project identifier and does not claim affiliation with third-party brands or public entities. | `docs.html`, `README.md` |
 

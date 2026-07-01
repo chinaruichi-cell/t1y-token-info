@@ -86,16 +86,16 @@ public materials explain the difference between:
 - non-standard token behavior
 - scanner/wallet heuristic warnings
 
-## 10. Why is the official email a Gmail address?
+## 10. What is the official email?
 
 The current official contact is:
 
 ```text
-chinaruichi@gmail.com
+contact@t1y.org
 ```
 
-It is intentionally published on the official website as the public contact
-until a project-domain mailbox is available. A domain-email readiness plan is
+It is the active project-domain mailbox and is intentionally published on the
+official website as the public contact. The domain-email readiness status is
 published separately:
 
 ```text
@@ -147,4 +147,3 @@ Users should avoid:
 5. Check the burn address and token-transfer evidence.
 6. Check the whitepaper and risk disclosures.
 7. Use only links published from the official site or BscScan.
-

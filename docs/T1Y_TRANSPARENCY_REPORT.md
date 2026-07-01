@@ -18,12 +18,11 @@ This document is a public transparency report for T1Y. It is **not a formal thir
 | Explorer review package | `https://t1y.org/explorer-review.html` |
 | BscScan review summary | `https://t1y.org/docs/BSCSCAN_REVIEW_SUMMARY.md` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
-| Official contact email | `chinaruichi@gmail.com` |
+| Official contact email | `contact@t1y.org` |
 
 The official public representative for explorer and scanner communication is
-`T1Y Team / CHINARUICHI BscScan account`. The Gmail address above is published
-on the official website as the project contact address until a project-domain
-mailbox is available.
+`T1Y Team / CHINARUICHI BscScan account`. The project-domain email address
+above is published on the official website as the official project contact.
 
 This transparency report publishes only verified project-controlled public
 channels and does not add unsupported personal-profile claims. If an explorer

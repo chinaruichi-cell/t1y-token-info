@@ -22,7 +22,7 @@ reviewers to public evidence instead of private files.
 | Resubmission cover | `https://t1y.org/docs/BSCSCAN_RESUBMISSION_COVER.md` |
 | Domain email readiness | `https://t1y.org/docs/DOMAIN_EMAIL_READINESS.md` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
-| Official email | `chinaruichi@gmail.com` |
+| Official email | `contact@t1y.org` |
 
 ## Token Information
 
@@ -77,8 +77,8 @@ website and GitHub repository.
 
 T1Y is represented publicly by the T1Y Team through the official website, GitHub
 repository, BscScan account used for token submissions, and official contact
-email. The official email is published on the website as the primary contact
-address until a project-domain mailbox is available.
+email. The official project-domain email is published on the website as the
+primary contact address.
 
 If an explorer requires an individual professional profile, the project should
 submit only a real profile controlled by the named person and updated to show

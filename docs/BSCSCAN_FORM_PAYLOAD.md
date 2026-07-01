@@ -21,7 +21,7 @@ T1Y Team
 Email:
 
 ```text
-chinaruichi@gmail.com
+contact@t1y.org
 ```
 
 Contract Address:
@@ -45,7 +45,7 @@ https://t1y.org/
 Project Email Address:
 
 ```text
-chinaruichi@gmail.com
+contact@t1y.org
 ```
 
 32x32 SVG Logo:
@@ -224,7 +224,7 @@ Public evidence now includes:
 - BscScan reviewer response mapped to the latest review notes
 - BscScan latest review gap analysis
 - BscScan resubmission cover note
-- domain email readiness plan
+- domain email readiness status
 - due diligence FAQ
 - official channels and impersonation notice
 - public logo SVG and PNG
@@ -232,7 +232,7 @@ Public evidence now includes:
 - latest owner/wiring check JSON
 - burn evidence and transparency report
 
-The official contact email chinaruichi@gmail.com is intentionally published on the official website as the project's primary contact email until a project-domain mailbox is available.
+The official contact email contact@t1y.org is intentionally published on the official website as the project's primary project-domain contact email.
 
 The deployed T1YToken and T1YFeeSwapper ownership status is publicly documented as renounced to 0x0000000000000000000000000000000000000000. T1YTokenExt does not expose an Ownable owner control path in this deployment.
 

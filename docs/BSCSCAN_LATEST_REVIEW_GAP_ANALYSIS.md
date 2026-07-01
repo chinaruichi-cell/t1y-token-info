@@ -26,7 +26,7 @@ unsupported claims.
 | Website placeholders, images, and links | Official 32x32 SVG logo, PNG logo, whitepaper PDF, deployment JSON, review documents, and public pages are linked from the site. | Improved | Run link checks before every resubmission. |
 | Broken links | Primary review links are centralized in the explorer review package and form payload. | Improved | Recheck live HTTP status before submitting. |
 | Founder/team transparency | Public representative page explains the T1Y Team / CHINARUICHI representative model and avoids unsupported personal claims. | Partially ready | Stronger if a real public professional profile or project-domain team page is created. |
-| Sender email vs website domain | `chinaruichi@gmail.com` is publicly listed as the official contact. A domain-email readiness plan is published. | Weak but disclosed | Best improvement is to create a project-domain mailbox and resubmit from it. |
+| Sender email vs website domain | `contact@t1y.org` is publicly listed as the official contact and uses the same domain as the website. | Ready | Send future reviewer updates from the project-domain mailbox. |
 | False or misleading information | Materials use verified contract addresses, BscScan links, source verification, deployment records, owner-check output, and project-controlled channels. | Ready | Do not submit invented biographies, partnerships, audit claims, or affiliations. |
 | Token name/symbol concerns | Name and symbol are both `T1Y`; materials do not claim affiliation with third-party brands or public entities. | Ready | Keep brand language neutral. |
 
@@ -48,11 +48,9 @@ unsupported claims.
 
 ## Current Honest Weak Points
 
-1. T1Y currently uses a public Gmail address instead of a project-domain
-   mailbox.
-2. T1Y currently uses a project/team representative model instead of publishing
+1. T1Y currently uses a project/team representative model instead of publishing
    an individual founder biography with a LinkedIn-style public profile.
-3. T1Y has public transparency materials and verified source code, but does not
+2. T1Y has public transparency materials and verified source code, but does not
    claim a completed third-party contract security audit.
 
 ## Recommended Resubmission Note
@@ -62,23 +60,16 @@ This resubmission addresses the latest BscScan review notes by adding a fuller
 public information package: expanded whitepaper and PDF, operation guide,
 security/ownership page, team and public representative page, explorer review
 package, latest review gap analysis, resubmission cover, domain-email readiness
-plan, verified contract links, deployment records, owner-renounce evidence,
+status, verified contract links, deployment records, owner-renounce evidence,
 logo assets, burn evidence, and GitHub repository.
 
-The official contact email is published on the official website. T1Y does not
-submit unsupported personal-profile, partnership, audit, or affiliation claims.
+The official project-domain contact email is published on the official website.
+T1Y does not submit unsupported personal-profile, partnership, audit, or
+affiliation claims.
 ```
 
 ## Best Remaining Improvement Before Resubmission
 
-The strongest remaining improvement is to use a real project-domain mailbox,
-for example:
-
-```text
-contact@<project-domain>
-```
-
-If this is not ready, the next submission should clearly state that
-`chinaruichi@gmail.com` is the published official contact and that a
-project-domain mailbox is planned.
-
+If BscScan requires stronger team transparency, provide only a real public
+professional profile controlled by the named representative. Do not submit
+invented personal-profile, partnership, audit, or affiliation claims.

@@ -59,7 +59,7 @@ The updated package includes:
 - burn transfer evidence
 - transparency and risk disclosures
 
-The official contact email chinaruichi@gmail.com is intentionally published on the official website as the project's primary contact email until a project-domain mailbox is available. The project also publishes a domain-email readiness plan and will update the form submission if a project-domain mailbox becomes available.
+The official contact email contact@t1y.org is intentionally published on the official website as the project's primary project-domain contact email. The project also publishes domain-email readiness status.
 ```
 
 ## Primary Links
@@ -83,10 +83,10 @@ The official contact email chinaruichi@gmail.com is intentionally published on t
 
 ## Remaining Weak Point
 
-The current official email is a public Gmail address rather than a project-domain
-mailbox. This is disclosed on the official website and in the form payload. A
-domain-email readiness plan is published separately so reviewers can see the
-intended remediation path.
+The current official email is the project-domain mailbox contact@t1y.org. This
+is disclosed on the official website and in the form payload. Domain-email
+readiness status is published separately so reviewers can verify the mailbox
+and DNS posture.
 
 Only real, independently checkable personal or professional information should
 be submitted. If BscScan requires an individual professional profile, it should

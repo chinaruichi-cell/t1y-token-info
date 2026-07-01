@@ -46,7 +46,7 @@ Recommended field values:
 | Contract Address | `0x56b776483096c16a3eDD76156Eee47cdcbC05F7f` |
 | Project Name | `T1Y` |
 | Project Website | `https://t1y.org/` |
-| Project Email Address | `chinaruichi@gmail.com` |
+| Project Email Address | `contact@t1y.org` |
 | Logo SVG | `https://t1y.org/assets/t1y-bscscan-logo-32.svg` |
 | Whitepaper | `https://t1y.org/whitepaper.html` |
 | Whitepaper PDF | `https://t1y.org/assets/t1y-whitepaper.pdf` |
@@ -88,9 +88,8 @@ review response. Public evidence now includes:
 - latest owner/wiring check JSON
 - burn evidence and transparency report
 
-The official contact email chinaruichi@gmail.com is intentionally published on
-the official website as the project's primary contact email until a
-project-domain mailbox is available.
+The official contact email contact@t1y.org is intentionally published on
+the official website as the project's primary project-domain contact email.
 
 If a personal professional profile is required, the project will provide only a
 real profile controlled by the named person and updated to show T1Y involvement.
