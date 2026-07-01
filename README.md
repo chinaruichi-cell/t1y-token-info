@@ -15,6 +15,8 @@ Intended GitHub Pages URL:
 - BscScan review summary: `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_SUMMARY.md`
 - BscScan reviewer response: `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md`
 - BscScan form payload: `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md`
+- BscScan resubmission cover: `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_RESUBMISSION_COVER.md`
+- Domain email readiness: `https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md`
 - BscScan logo SVG: `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-bscscan-logo-32.svg`
 - Official logo PNG: `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-official-logo-512.png`
 
@@ -66,6 +68,7 @@ evidence links:
 - representative and communication policy
 - copy-ready BscScan token update form payload
 - reviewer-note response mapped to BscScan's latest feedback
+- resubmission cover note and domain-email readiness plan
 
 To reproduce the owner and wiring check:
 

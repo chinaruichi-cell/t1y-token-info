@@ -56,6 +56,8 @@ Recommended field values:
 | Review Summary | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_SUMMARY.md` |
 | Copy-ready Form Payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
 | Reviewer Response | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md` |
+| Resubmission Cover | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_RESUBMISSION_COVER.md` |
+| Domain Email Readiness | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md` |
 | Project Sector | `DeFi` |
 
 Neutral project description:

@@ -47,8 +47,9 @@ real public professional information that can be independently checked.
 1. Log in to the BscScan account that verified the token address.
 2. Open the token update form: `https://BscScan.com/contactus?id=4`.
 3. Use the copy-ready field values in `docs/BSCSCAN_FORM_PAYLOAD.md`.
-4. Include this reviewer response URL in the comment if the form allows it.
-5. Do not open duplicate tickets unless BscScan asks for a fresh submission.
+4. Include the resubmission cover URL in the comment if the form allows it.
+5. Include this reviewer response URL if additional space is available.
+6. Do not open duplicate tickets unless BscScan asks for a fresh submission.
 
 ## Key URLs for Review
 
@@ -63,4 +64,6 @@ real public professional information that can be independently checked.
 | Team and public representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
 | Explorer review package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
 | Form payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
+| Resubmission cover | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_RESUBMISSION_COVER.md` |
+| Domain email readiness | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |

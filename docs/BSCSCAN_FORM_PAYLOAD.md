@@ -128,6 +128,18 @@ BscScan Reviewer Response:
 https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md
 ```
 
+BscScan Resubmission Cover:
+
+```text
+https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_RESUBMISSION_COVER.md
+```
+
+Domain Email Readiness:
+
+```text
+https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md
+```
+
 ## Sale Information
 
 Public Sale / ICO / IEO:
@@ -185,6 +197,8 @@ Public evidence now includes:
 - explorer review package
 - BscScan review summary
 - BscScan reviewer response mapped to the latest review notes
+- BscScan resubmission cover note
+- domain email readiness plan
 - public logo SVG and PNG
 - GitHub repository with deployment and verification JSON
 - latest owner/wiring check JSON
