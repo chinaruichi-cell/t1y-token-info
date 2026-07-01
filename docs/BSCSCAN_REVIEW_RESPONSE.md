@@ -64,6 +64,7 @@ real public professional information that can be independently checked.
 | Team and public representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
 | Explorer review package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
 | Form payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
+| Latest review gap analysis | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md` |
 | Resubmission cover | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_RESUBMISSION_COVER.md` |
 | Domain email readiness | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |

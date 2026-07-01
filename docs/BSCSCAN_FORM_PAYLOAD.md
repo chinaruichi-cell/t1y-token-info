@@ -128,6 +128,12 @@ BscScan Reviewer Response:
 https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md
 ```
 
+BscScan Latest Review Gap Analysis:
+
+```text
+https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md
+```
+
 BscScan Resubmission Cover:
 
 ```text
@@ -197,6 +203,7 @@ Public evidence now includes:
 - explorer review package
 - BscScan review summary
 - BscScan reviewer response mapped to the latest review notes
+- BscScan latest review gap analysis
 - BscScan resubmission cover note
 - domain email readiness plan
 - public logo SVG and PNG

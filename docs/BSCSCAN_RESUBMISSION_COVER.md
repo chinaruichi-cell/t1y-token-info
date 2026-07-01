@@ -33,6 +33,7 @@ expanded in the following areas:
 | PDF | A downloadable whitepaper PDF is published for reviewers who prefer a single document. |
 | Team transparency | The public representative page now explains the T1Y Team / CHINARUICHI BscScan account model without unsupported personal claims. |
 | Review response | A reviewer-response document maps BscScan's common review notes to public T1Y evidence links. |
+| Latest review gap analysis | A latest-review gap analysis maps BscScan's newest feedback categories to current evidence, honest weak points, and next actions. |
 | Form payload | A copy-ready token update form payload is published to reduce field mismatch. |
 | Burn evidence | Burn transfer evidence and representative transaction hashes are published in the submission prep file. |
 | Ownership evidence | Owner-renounce status and latest read-only owner/wiring check JSON are published. |
@@ -69,6 +70,7 @@ The official contact email chinaruichi@gmail.com is intentionally published on t
 | Team and representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
 | Explorer review package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
 | Reviewer response | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md` |
+| Latest review gap analysis | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md` |
 | Form payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
 | Domain email readiness | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
