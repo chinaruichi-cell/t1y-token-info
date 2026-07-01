@@ -10,13 +10,13 @@ unofficial or impersonating materials.
 
 | Channel | Official URL or address |
 | --- | --- |
-| Official website | `https://chinaruichi-cell.github.io/t1y-token-info/` |
+| Official website | `https://t1y.org/` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
 | Official contact email | `chinaruichi@gmail.com` |
 | BscScan token page | `https://bscscan.com/token/0x56b776483096c16a3eDD76156Eee47cdcbC05F7f` |
-| Explorer review package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
-| Whitepaper | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
-| Whitepaper PDF | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf` |
+| Explorer review package | `https://t1y.org/explorer-review.html` |
+| Whitepaper | `https://t1y.org/whitepaper.html` |
+| Whitepaper PDF | `https://t1y.org/assets/t1y-whitepaper.pdf` |
 
 ## Official Contract Addresses
 
@@ -66,7 +66,7 @@ on the official website and is used for BscScan and scanner communications.
 Domain-email readiness plan:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md
+https://t1y.org/docs/DOMAIN_EMAIL_READINESS.md
 ```
 
 ## Impersonation Handling

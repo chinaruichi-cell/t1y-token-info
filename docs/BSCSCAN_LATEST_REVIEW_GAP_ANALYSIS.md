@@ -34,17 +34,17 @@ unsupported claims.
 
 | Material | URL |
 | --- | --- |
-| Expanded project information | `https://chinaruichi-cell.github.io/t1y-token-info/docs.html` |
-| Expanded whitepaper | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
-| Whitepaper PDF | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf` |
-| Operation guide | `https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html` |
-| Security and ownership status | `https://chinaruichi-cell.github.io/t1y-token-info/security.html` |
-| Team and public representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
-| Explorer review package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
-| Reviewer response | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md` |
-| Resubmission cover | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_RESUBMISSION_COVER.md` |
-| Domain email readiness | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md` |
-| Copy-ready form payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
+| Expanded project information | `https://t1y.org/docs.html` |
+| Expanded whitepaper | `https://t1y.org/whitepaper.html` |
+| Whitepaper PDF | `https://t1y.org/assets/t1y-whitepaper.pdf` |
+| Operation guide | `https://t1y.org/operation-guide.html` |
+| Security and ownership status | `https://t1y.org/security.html` |
+| Team and public representative | `https://t1y.org/team.html` |
+| Explorer review package | `https://t1y.org/explorer-review.html` |
+| Reviewer response | `https://t1y.org/docs/BSCSCAN_REVIEW_RESPONSE.md` |
+| Resubmission cover | `https://t1y.org/docs/BSCSCAN_RESUBMISSION_COVER.md` |
+| Domain email readiness | `https://t1y.org/docs/DOMAIN_EMAIL_READINESS.md` |
+| Copy-ready form payload | `https://t1y.org/docs/BSCSCAN_FORM_PAYLOAD.md` |
 
 ## Current Honest Weak Points
 

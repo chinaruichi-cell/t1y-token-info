@@ -4,25 +4,25 @@ Static public token-info page for the T1Y BscScan token update request.
 
 Intended GitHub Pages URL:
 
-- Website: `https://chinaruichi-cell.github.io/t1y-token-info/`
-- Project information: `https://chinaruichi-cell.github.io/t1y-token-info/docs.html`
-- Whitepaper: `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html`
-- Whitepaper PDF: `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf`
-- Protocol mechanics appendix: `https://chinaruichi-cell.github.io/t1y-token-info/docs/PROTOCOL_MECHANICS_APPENDIX.md`
-- Operation guide: `https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html`
-- Security status: `https://chinaruichi-cell.github.io/t1y-token-info/security.html`
-- Team & public representative: `https://chinaruichi-cell.github.io/t1y-token-info/team.html`
-- Explorer review package: `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html`
-- BscScan review summary: `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_SUMMARY.md`
-- BscScan reviewer response: `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md`
-- BscScan latest review gap analysis: `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md`
-- BscScan form payload: `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md`
-- BscScan resubmission cover: `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_RESUBMISSION_COVER.md`
-- Domain email readiness: `https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md`
-- Due diligence FAQ: `https://chinaruichi-cell.github.io/t1y-token-info/docs/DUE_DILIGENCE_FAQ.md`
-- Official channels notice: `https://chinaruichi-cell.github.io/t1y-token-info/docs/OFFICIAL_CHANNELS_AND_IMPERSONATION_NOTICE.md`
-- BscScan logo SVG: `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-bscscan-logo-32.svg`
-- Official logo PNG: `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-official-logo-512.png`
+- Website: `https://t1y.org/`
+- Project information: `https://t1y.org/docs.html`
+- Whitepaper: `https://t1y.org/whitepaper.html`
+- Whitepaper PDF: `https://t1y.org/assets/t1y-whitepaper.pdf`
+- Protocol mechanics appendix: `https://t1y.org/docs/PROTOCOL_MECHANICS_APPENDIX.md`
+- Operation guide: `https://t1y.org/operation-guide.html`
+- Security status: `https://t1y.org/security.html`
+- Team & public representative: `https://t1y.org/team.html`
+- Explorer review package: `https://t1y.org/explorer-review.html`
+- BscScan review summary: `https://t1y.org/docs/BSCSCAN_REVIEW_SUMMARY.md`
+- BscScan reviewer response: `https://t1y.org/docs/BSCSCAN_REVIEW_RESPONSE.md`
+- BscScan latest review gap analysis: `https://t1y.org/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md`
+- BscScan form payload: `https://t1y.org/docs/BSCSCAN_FORM_PAYLOAD.md`
+- BscScan resubmission cover: `https://t1y.org/docs/BSCSCAN_RESUBMISSION_COVER.md`
+- Domain email readiness: `https://t1y.org/docs/DOMAIN_EMAIL_READINESS.md`
+- Due diligence FAQ: `https://t1y.org/docs/DUE_DILIGENCE_FAQ.md`
+- Official channels notice: `https://t1y.org/docs/OFFICIAL_CHANNELS_AND_IMPERSONATION_NOTICE.md`
+- BscScan logo SVG: `https://t1y.org/assets/t1y-bscscan-logo-32.svg`
+- Official logo PNG: `https://t1y.org/assets/t1y-official-logo-512.png`
 
 No private key, mnemonic, RPC endpoint, signer data, or wallet balance is included.
 

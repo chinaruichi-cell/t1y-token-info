@@ -6,9 +6,9 @@ Network: BNB Smart Chain
 
 Token contract: `0x56b776483096c16a3eDD76156Eee47cdcbC05F7f`
 
-Official website: `https://chinaruichi-cell.github.io/t1y-token-info/`
+Official website: `https://t1y.org/`
 
-Security status page: `https://chinaruichi-cell.github.io/t1y-token-info/security.html`
+Security status page: `https://t1y.org/security.html`
 
 Contact email: `chinaruichi@gmail.com`
 

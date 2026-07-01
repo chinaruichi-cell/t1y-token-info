@@ -29,8 +29,8 @@ ownership of the main token address, and public deployment/ownership materials
 are available at:
 
 https://github.com/chinaruichi-cell/t1y-token-info
-https://chinaruichi-cell.github.io/t1y-token-info/security.html
-https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html
+https://t1y.org/security.html
+https://t1y.org/explorer-review.html
 ```
 
 ## Token Information Resubmission Package
@@ -45,19 +45,19 @@ Recommended field values:
 | --- | --- |
 | Contract Address | `0x56b776483096c16a3eDD76156Eee47cdcbC05F7f` |
 | Project Name | `T1Y` |
-| Project Website | `https://chinaruichi-cell.github.io/t1y-token-info/` |
+| Project Website | `https://t1y.org/` |
 | Project Email Address | `chinaruichi@gmail.com` |
-| Logo SVG | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-bscscan-logo-32.svg` |
-| Whitepaper | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
-| Whitepaper PDF | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf` |
+| Logo SVG | `https://t1y.org/assets/t1y-bscscan-logo-32.svg` |
+| Whitepaper | `https://t1y.org/whitepaper.html` |
+| Whitepaper PDF | `https://t1y.org/assets/t1y-whitepaper.pdf` |
 | GitHub | `https://github.com/chinaruichi-cell/t1y-token-info` |
-| Team / Representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
-| Explorer Review Package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
-| Review Summary | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_SUMMARY.md` |
-| Copy-ready Form Payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
-| Reviewer Response | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md` |
-| Resubmission Cover | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_RESUBMISSION_COVER.md` |
-| Domain Email Readiness | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md` |
+| Team / Representative | `https://t1y.org/team.html` |
+| Explorer Review Package | `https://t1y.org/explorer-review.html` |
+| Review Summary | `https://t1y.org/docs/BSCSCAN_REVIEW_SUMMARY.md` |
+| Copy-ready Form Payload | `https://t1y.org/docs/BSCSCAN_FORM_PAYLOAD.md` |
+| Reviewer Response | `https://t1y.org/docs/BSCSCAN_REVIEW_RESPONSE.md` |
+| Resubmission Cover | `https://t1y.org/docs/BSCSCAN_RESUBMISSION_COVER.md` |
+| Domain Email Readiness | `https://t1y.org/docs/DOMAIN_EMAIL_READINESS.md` |
 | Project Sector | `DeFi` |
 
 Neutral project description:
@@ -162,7 +162,7 @@ the dead address. Some transactions contain multiple burn transfer rows.
 - Do not submit Burn Details unless the form allows a recurring/protocol burn
   explanation or enough transaction hashes.
 - If the form requires an announcement URL, use the public transparency page:
-  `https://chinaruichi-cell.github.io/t1y-token-info/security.html`.
+  `https://t1y.org/security.html`.
 - If BscScan asks for a single burn event, submit the latest successful burn
   transaction hash and mention that the contract performs recurring burns.
 - Submit only after explicit approval.

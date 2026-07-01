@@ -41,7 +41,7 @@ BscScan verification metadata, and compiler standard input.
 Primary evidence:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html
+https://t1y.org/explorer-review.html
 ```
 
 ## 5. Has ownership been renounced?
@@ -55,7 +55,7 @@ The public owner-check evidence documents:
 Read-only evidence:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/deployments/t1y-readonly-owner-check-latest.json
+https://t1y.org/deployments/t1y-readonly-owner-check-latest.json
 ```
 
 ## 6. Does this replace a third-party audit?
@@ -99,7 +99,7 @@ until a project-domain mailbox is available. A domain-email readiness plan is
 published separately:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md
+https://t1y.org/docs/DOMAIN_EMAIL_READINESS.md
 ```
 
 ## 11. Who publicly represents T1Y?
@@ -119,13 +119,13 @@ contact email. It does not submit unsupported personal-profile claims.
 Use the explorer review package first:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html
+https://t1y.org/explorer-review.html
 ```
 
 Then use the copy-ready form payload:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md
+https://t1y.org/docs/BSCSCAN_FORM_PAYLOAD.md
 ```
 
 ## 13. What should users avoid?

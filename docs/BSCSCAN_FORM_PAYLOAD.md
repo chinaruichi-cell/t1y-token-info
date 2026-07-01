@@ -39,7 +39,7 @@ T1Y
 Project Website:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/
+https://t1y.org/
 ```
 
 Project Email Address:
@@ -51,13 +51,13 @@ chinaruichi@gmail.com
 32x32 SVG Logo:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-bscscan-logo-32.svg
+https://t1y.org/assets/t1y-bscscan-logo-32.svg
 ```
 
 PNG Logo:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-official-logo-512.png
+https://t1y.org/assets/t1y-official-logo-512.png
 ```
 
 Project Sector:
@@ -83,85 +83,85 @@ https://github.com/chinaruichi-cell/t1y-token-info
 Whitepaper:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html
+https://t1y.org/whitepaper.html
 ```
 
 Whitepaper PDF:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf
+https://t1y.org/assets/t1y-whitepaper.pdf
 ```
 
 Protocol Mechanics Appendix:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/docs/PROTOCOL_MECHANICS_APPENDIX.md
+https://t1y.org/docs/PROTOCOL_MECHANICS_APPENDIX.md
 ```
 
 Operation Guide:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html
+https://t1y.org/operation-guide.html
 ```
 
 Security and Ownership Status:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/security.html
+https://t1y.org/security.html
 ```
 
 Team and Public Representative:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/team.html
+https://t1y.org/team.html
 ```
 
 Explorer Review Package:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html
+https://t1y.org/explorer-review.html
 ```
 
 BscScan Review Summary:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_SUMMARY.md
+https://t1y.org/docs/BSCSCAN_REVIEW_SUMMARY.md
 ```
 
 BscScan Reviewer Response:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md
+https://t1y.org/docs/BSCSCAN_REVIEW_RESPONSE.md
 ```
 
 BscScan Latest Review Gap Analysis:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md
+https://t1y.org/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md
 ```
 
 BscScan Resubmission Cover:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_RESUBMISSION_COVER.md
+https://t1y.org/docs/BSCSCAN_RESUBMISSION_COVER.md
 ```
 
 Domain Email Readiness:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md
+https://t1y.org/docs/DOMAIN_EMAIL_READINESS.md
 ```
 
 Due Diligence FAQ:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/docs/DUE_DILIGENCE_FAQ.md
+https://t1y.org/docs/DUE_DILIGENCE_FAQ.md
 ```
 
 Official Channels and Impersonation Notice:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/docs/OFFICIAL_CHANNELS_AND_IMPERSONATION_NOTICE.md
+https://t1y.org/docs/OFFICIAL_CHANNELS_AND_IMPERSONATION_NOTICE.md
 ```
 
 ## Sale Information
@@ -195,7 +195,7 @@ https://bscscan.com/token/0x56b776483096c16a3eDD76156Eee47cdcbC05F7f?a=0x0000000
 Burn Evidence Notes:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_SUBMISSION_PREP.md
+https://t1y.org/docs/BSCSCAN_SUBMISSION_PREP.md
 ```
 
 Recent Burn Transaction Examples:

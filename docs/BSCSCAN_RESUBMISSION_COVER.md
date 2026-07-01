@@ -66,19 +66,19 @@ The official contact email chinaruichi@gmail.com is intentionally published on t
 
 | Material | URL |
 | --- | --- |
-| Official website | `https://chinaruichi-cell.github.io/t1y-token-info/` |
-| Project information | `https://chinaruichi-cell.github.io/t1y-token-info/docs.html` |
-| Whitepaper | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
-| Whitepaper PDF | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf` |
-| Protocol mechanics appendix | `https://chinaruichi-cell.github.io/t1y-token-info/docs/PROTOCOL_MECHANICS_APPENDIX.md` |
-| Team and representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
-| Explorer review package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
-| Reviewer response | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md` |
-| Latest review gap analysis | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md` |
-| Form payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
-| Domain email readiness | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md` |
-| Due diligence FAQ | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DUE_DILIGENCE_FAQ.md` |
-| Official channels notice | `https://chinaruichi-cell.github.io/t1y-token-info/docs/OFFICIAL_CHANNELS_AND_IMPERSONATION_NOTICE.md` |
+| Official website | `https://t1y.org/` |
+| Project information | `https://t1y.org/docs.html` |
+| Whitepaper | `https://t1y.org/whitepaper.html` |
+| Whitepaper PDF | `https://t1y.org/assets/t1y-whitepaper.pdf` |
+| Protocol mechanics appendix | `https://t1y.org/docs/PROTOCOL_MECHANICS_APPENDIX.md` |
+| Team and representative | `https://t1y.org/team.html` |
+| Explorer review package | `https://t1y.org/explorer-review.html` |
+| Reviewer response | `https://t1y.org/docs/BSCSCAN_REVIEW_RESPONSE.md` |
+| Latest review gap analysis | `https://t1y.org/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md` |
+| Form payload | `https://t1y.org/docs/BSCSCAN_FORM_PAYLOAD.md` |
+| Domain email readiness | `https://t1y.org/docs/DOMAIN_EMAIL_READINESS.md` |
+| Due diligence FAQ | `https://t1y.org/docs/DUE_DILIGENCE_FAQ.md` |
+| Official channels notice | `https://t1y.org/docs/OFFICIAL_CHANNELS_AND_IMPERSONATION_NOTICE.md` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
 
 ## Remaining Weak Point

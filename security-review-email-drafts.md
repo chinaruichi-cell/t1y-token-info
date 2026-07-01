@@ -13,9 +13,9 @@ Token information:
 - Token name / symbol: T1Y
 - Chain: BNB Smart Chain
 - Token contract: `0x56b776483096c16a3eDD76156Eee47cdcbC05F7f`
-- Official website: `https://chinaruichi-cell.github.io/t1y-token-info/`
-- Project information: `https://chinaruichi-cell.github.io/t1y-token-info/docs.html`
-- Security and ownership status: `https://chinaruichi-cell.github.io/t1y-token-info/security.html`
+- Official website: `https://t1y.org/`
+- Project information: `https://t1y.org/docs.html`
+- Security and ownership status: `https://t1y.org/security.html`
 - GitHub repository: `https://github.com/chinaruichi-cell/t1y-token-info`
 - Official contact email: `chinaruichi@gmail.com`
 
@@ -59,9 +59,9 @@ Network: BNB Smart Chain
 
 Token contract: `0x56b776483096c16a3eDD76156Eee47cdcbC05F7f`
 
-Official website: `https://chinaruichi-cell.github.io/t1y-token-info/`
+Official website: `https://t1y.org/`
 
-Security status page: `https://chinaruichi-cell.github.io/t1y-token-info/security.html`
+Security status page: `https://t1y.org/security.html`
 
 Public verification repository: `https://github.com/chinaruichi-cell/t1y-token-info`
 
@@ -97,7 +97,7 @@ We are requesting a review of the token-security scanner result for T1Y on BNB S
 
 Token contract: `0x56b776483096c16a3eDD76156Eee47cdcbC05F7f`
 
-Security status page: `https://chinaruichi-cell.github.io/t1y-token-info/security.html`
+Security status page: `https://t1y.org/security.html`
 
 Public verification repository: `https://github.com/chinaruichi-cell/t1y-token-info`
 
@@ -141,4 +141,4 @@ TP 安全检测显示的是静态扫描结果。它识别到合约代码中存�
 
 公开核查页面：
 
-`https://chinaruichi-cell.github.io/t1y-token-info/security.html`
+`https://t1y.org/security.html`

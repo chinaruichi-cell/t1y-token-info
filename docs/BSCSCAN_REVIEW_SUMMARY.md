@@ -9,18 +9,18 @@ reviewers to public evidence instead of private files.
 
 | Item | Public URL |
 | --- | --- |
-| Official website | `https://chinaruichi-cell.github.io/t1y-token-info/` |
-| Explorer review package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
-| Whitepaper HTML | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
-| Whitepaper PDF | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf` |
-| Project information | `https://chinaruichi-cell.github.io/t1y-token-info/docs.html` |
-| Operation guide | `https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html` |
-| Security status | `https://chinaruichi-cell.github.io/t1y-token-info/security.html` |
-| Team and public representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
-| Copy-ready form payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
-| Reviewer response | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md` |
-| Resubmission cover | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_RESUBMISSION_COVER.md` |
-| Domain email readiness | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md` |
+| Official website | `https://t1y.org/` |
+| Explorer review package | `https://t1y.org/explorer-review.html` |
+| Whitepaper HTML | `https://t1y.org/whitepaper.html` |
+| Whitepaper PDF | `https://t1y.org/assets/t1y-whitepaper.pdf` |
+| Project information | `https://t1y.org/docs.html` |
+| Operation guide | `https://t1y.org/operation-guide.html` |
+| Security status | `https://t1y.org/security.html` |
+| Team and public representative | `https://t1y.org/team.html` |
+| Copy-ready form payload | `https://t1y.org/docs/BSCSCAN_FORM_PAYLOAD.md` |
+| Reviewer response | `https://t1y.org/docs/BSCSCAN_REVIEW_RESPONSE.md` |
+| Resubmission cover | `https://t1y.org/docs/BSCSCAN_RESUBMISSION_COVER.md` |
+| Domain email readiness | `https://t1y.org/docs/DOMAIN_EMAIL_READINESS.md` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
 | Official email | `chinaruichi@gmail.com` |
 
@@ -49,9 +49,9 @@ website and GitHub repository.
 
 | Asset | Public URL |
 | --- | --- |
-| 32x32 SVG | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-bscscan-logo-32.svg` |
-| 512x512 PNG | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-official-logo-512.png` |
-| 32x32 PNG fallback | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-official-logo-32.png` |
+| 32x32 SVG | `https://t1y.org/assets/t1y-bscscan-logo-32.svg` |
+| 512x512 PNG | `https://t1y.org/assets/t1y-official-logo-512.png` |
+| 32x32 PNG fallback | `https://t1y.org/assets/t1y-official-logo-32.png` |
 
 ## Contract and Ownership Evidence
 
@@ -63,7 +63,7 @@ website and GitHub repository.
 | T1YToken owner | `0x0000000000000000000000000000000000000000` |
 | T1YFeeSwapper owner | `0x0000000000000000000000000000000000000000` |
 | T1YTokenExt owner | No Ownable owner control path exposed in this deployment |
-| Owner check JSON | `https://chinaruichi-cell.github.io/t1y-token-info/deployments/t1y-readonly-owner-check-latest.json` |
+| Owner check JSON | `https://t1y.org/deployments/t1y-readonly-owner-check-latest.json` |
 
 ## Burn Evidence
 
@@ -71,7 +71,7 @@ website and GitHub repository.
 | --- | --- |
 | Burn address | `0x000000000000000000000000000000000000dEaD` |
 | BscScan burn transfer filter | `https://bscscan.com/token/0x56b776483096c16a3eDD76156Eee47cdcbC05F7f?a=0x000000000000000000000000000000000000dEaD` |
-| Burn notes and recent transaction samples | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_SUBMISSION_PREP.md` |
+| Burn notes and recent transaction samples | `https://t1y.org/docs/BSCSCAN_SUBMISSION_PREP.md` |
 
 ## Public Representative
 
@@ -88,15 +88,15 @@ T1Y involvement.
 
 The copy-ready token update form values are published at:
 
-`https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md`
+`https://t1y.org/docs/BSCSCAN_FORM_PAYLOAD.md`
 
 The reviewer-note response is published at:
 
-`https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md`
+`https://t1y.org/docs/BSCSCAN_REVIEW_RESPONSE.md`
 
 The resubmission cover note is published at:
 
-`https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_RESUBMISSION_COVER.md`
+`https://t1y.org/docs/BSCSCAN_RESUBMISSION_COVER.md`
 
 This payload should be used only through the verified-address token update form
 after logging in to the BscScan account.

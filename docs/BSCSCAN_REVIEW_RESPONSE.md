@@ -13,7 +13,7 @@ not replace the verified-address token update form.
 | Project | `T1Y` |
 | Chain | `BNB Smart Chain` |
 | Token contract | `0x56b776483096c16a3eDD76156Eee47cdcbC05F7f` |
-| Official website | `https://chinaruichi-cell.github.io/t1y-token-info/` |
+| Official website | `https://t1y.org/` |
 | Official contact | `chinaruichi@gmail.com` |
 | Public representative | `T1Y Team / CHINARUICHI BscScan account` |
 
@@ -21,7 +21,7 @@ not replace the verified-address token update form.
 
 | Review note | T1Y response | Public evidence |
 | --- | --- | --- |
-| Official website is not accessible or safe to visit | The official website is a static GitHub Pages site with public HTML pages, logo assets, and documentation. It does not request private keys, seed phrases, approvals, or wallet credentials. | `https://chinaruichi-cell.github.io/t1y-token-info/` |
+| Official website is not accessible or safe to visit | The official website is a static GitHub Pages site with public HTML pages, logo assets, and documentation. It does not request private keys, seed phrases, approvals, or wallet credentials. | `https://t1y.org/` |
 | No clear information about the token or project | The project information page, whitepaper, operation guide, security page, and explorer review package explain the token, contract set, ownership state, burn behavior, and risk disclosures. | `docs.html`, `whitepaper.html`, `operation-guide.html`, `security.html`, `explorer-review.html` |
 | Placeholders, images, or links are not updated | The site publishes the official 32x32 SVG logo, PNG logo files, verified contract links, deployment JSON, whitepaper PDF, and public review materials. Internal local link checks are run before publishing changes. | `assets/t1y-bscscan-logo-32.svg`, `assets/t1y-official-logo-512.png`, `docs/BSCSCAN_FORM_PAYLOAD.md` |
 | Some provided links are broken | The public review package centralizes the main reviewer links. The latest publication pass verified the payload, docs, explorer review package, and review summary online with HTTP 200 responses. | `explorer-review.html`, `docs/BSCSCAN_REVIEW_SUMMARY.md` |
@@ -55,19 +55,19 @@ real public professional information that can be independently checked.
 
 | Material | URL |
 | --- | --- |
-| Official website | `https://chinaruichi-cell.github.io/t1y-token-info/` |
-| Project information | `https://chinaruichi-cell.github.io/t1y-token-info/docs.html` |
-| Whitepaper | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
-| Whitepaper PDF | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf` |
-| Protocol mechanics appendix | `https://chinaruichi-cell.github.io/t1y-token-info/docs/PROTOCOL_MECHANICS_APPENDIX.md` |
-| Operation guide | `https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html` |
-| Security and ownership status | `https://chinaruichi-cell.github.io/t1y-token-info/security.html` |
-| Team and public representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
-| Explorer review package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
-| Form payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
-| Latest review gap analysis | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md` |
-| Resubmission cover | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_RESUBMISSION_COVER.md` |
-| Domain email readiness | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DOMAIN_EMAIL_READINESS.md` |
-| Due diligence FAQ | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DUE_DILIGENCE_FAQ.md` |
-| Official channels notice | `https://chinaruichi-cell.github.io/t1y-token-info/docs/OFFICIAL_CHANNELS_AND_IMPERSONATION_NOTICE.md` |
+| Official website | `https://t1y.org/` |
+| Project information | `https://t1y.org/docs.html` |
+| Whitepaper | `https://t1y.org/whitepaper.html` |
+| Whitepaper PDF | `https://t1y.org/assets/t1y-whitepaper.pdf` |
+| Protocol mechanics appendix | `https://t1y.org/docs/PROTOCOL_MECHANICS_APPENDIX.md` |
+| Operation guide | `https://t1y.org/operation-guide.html` |
+| Security and ownership status | `https://t1y.org/security.html` |
+| Team and public representative | `https://t1y.org/team.html` |
+| Explorer review package | `https://t1y.org/explorer-review.html` |
+| Form payload | `https://t1y.org/docs/BSCSCAN_FORM_PAYLOAD.md` |
+| Latest review gap analysis | `https://t1y.org/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md` |
+| Resubmission cover | `https://t1y.org/docs/BSCSCAN_RESUBMISSION_COVER.md` |
+| Domain email readiness | `https://t1y.org/docs/DOMAIN_EMAIL_READINESS.md` |
+| Due diligence FAQ | `https://t1y.org/docs/DUE_DILIGENCE_FAQ.md` |
+| Official channels notice | `https://t1y.org/docs/OFFICIAL_CHANNELS_AND_IMPERSONATION_NOTICE.md` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |

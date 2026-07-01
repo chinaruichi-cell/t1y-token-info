@@ -63,7 +63,7 @@ The current public owner evidence states:
 Evidence file:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/deployments/t1y-readonly-owner-check-latest.json
+https://t1y.org/deployments/t1y-readonly-owner-check-latest.json
 ```
 
 This owner evidence is important because scanners may still show historical or
@@ -83,7 +83,7 @@ https://bscscan.com/token/0x56b776483096c16a3eDD76156Eee47cdcbC05F7f?a=0x0000000
 The burn evidence notes also list representative transaction hashes:
 
 ```text
-https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_SUBMISSION_PREP.md
+https://t1y.org/docs/BSCSCAN_SUBMISSION_PREP.md
 ```
 
 Review note: recurring burn behavior may generate multiple transfer rows and
@@ -117,15 +117,15 @@ when displaying owner-control warnings.
 
 | Evidence | URL |
 | --- | --- |
-| Official website | `https://chinaruichi-cell.github.io/t1y-token-info/` |
-| Whitepaper | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
-| Whitepaper PDF | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf` |
-| Explorer review package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
-| Due diligence FAQ | `https://chinaruichi-cell.github.io/t1y-token-info/docs/DUE_DILIGENCE_FAQ.md` |
-| Official channels notice | `https://chinaruichi-cell.github.io/t1y-token-info/docs/OFFICIAL_CHANNELS_AND_IMPERSONATION_NOTICE.md` |
-| Latest review gap analysis | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md` |
-| Form payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
-| Owner/wiring check | `https://chinaruichi-cell.github.io/t1y-token-info/deployments/t1y-readonly-owner-check-latest.json` |
+| Official website | `https://t1y.org/` |
+| Whitepaper | `https://t1y.org/whitepaper.html` |
+| Whitepaper PDF | `https://t1y.org/assets/t1y-whitepaper.pdf` |
+| Explorer review package | `https://t1y.org/explorer-review.html` |
+| Due diligence FAQ | `https://t1y.org/docs/DUE_DILIGENCE_FAQ.md` |
+| Official channels notice | `https://t1y.org/docs/OFFICIAL_CHANNELS_AND_IMPERSONATION_NOTICE.md` |
+| Latest review gap analysis | `https://t1y.org/docs/BSCSCAN_LATEST_REVIEW_GAP_ANALYSIS.md` |
+| Form payload | `https://t1y.org/docs/BSCSCAN_FORM_PAYLOAD.md` |
+| Owner/wiring check | `https://t1y.org/deployments/t1y-readonly-owner-check-latest.json` |
 
 ## 8. Risk Boundary
 
