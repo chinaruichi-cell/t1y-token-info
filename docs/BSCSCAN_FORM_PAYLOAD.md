@@ -92,6 +92,12 @@ Whitepaper PDF:
 https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf
 ```
 
+Protocol Mechanics Appendix:
+
+```text
+https://chinaruichi-cell.github.io/t1y-token-info/docs/PROTOCOL_MECHANICS_APPENDIX.md
+```
+
 Operation Guide:
 
 ```text
@@ -210,6 +216,7 @@ This resubmission adds a fuller public information package after the previous re
 Public evidence now includes:
 - official website
 - expanded whitepaper and downloadable PDF
+- protocol mechanics appendix
 - operation guide
 - team/public representative statement
 - explorer review package

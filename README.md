@@ -8,6 +8,7 @@ Intended GitHub Pages URL:
 - Project information: `https://chinaruichi-cell.github.io/t1y-token-info/docs.html`
 - Whitepaper: `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html`
 - Whitepaper PDF: `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf`
+- Protocol mechanics appendix: `https://chinaruichi-cell.github.io/t1y-token-info/docs/PROTOCOL_MECHANICS_APPENDIX.md`
 - Operation guide: `https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html`
 - Security status: `https://chinaruichi-cell.github.io/t1y-token-info/security.html`
 - Team & public representative: `https://chinaruichi-cell.github.io/t1y-token-info/team.html`
@@ -63,6 +64,7 @@ evidence links:
 
 - official website and email
 - whitepaper and operation guide
+- protocol mechanics appendix
 - logo SVG/PNG files
 - verified contract links
 - deployment and verification JSON

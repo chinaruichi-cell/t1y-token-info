@@ -59,6 +59,7 @@ real public professional information that can be independently checked.
 | Project information | `https://chinaruichi-cell.github.io/t1y-token-info/docs.html` |
 | Whitepaper | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
 | Whitepaper PDF | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf` |
+| Protocol mechanics appendix | `https://chinaruichi-cell.github.io/t1y-token-info/docs/PROTOCOL_MECHANICS_APPENDIX.md` |
 | Operation guide | `https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html` |
 | Security and ownership status | `https://chinaruichi-cell.github.io/t1y-token-info/security.html` |
 | Team and public representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |

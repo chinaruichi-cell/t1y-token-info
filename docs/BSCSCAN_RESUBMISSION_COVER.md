@@ -31,6 +31,7 @@ expanded in the following areas:
 | Project information | The project information page now links the website, whitepaper, PDF, operation guide, security page, team statement, explorer review package, and reviewer response. |
 | Whitepaper | The whitepaper was expanded with terminology, public evidence model, user operation boundaries, scanner/wallet interpretation, audit/review status, and explorer submission notes. |
 | PDF | A downloadable whitepaper PDF is published for reviewers who prefer a single document. |
+| Protocol mechanics appendix | A structured appendix explains deployment topology, participation/accounting model, non-standard BEP-20 behavior, ownership boundary, burn evidence, and scanner-warning interpretation. |
 | Team transparency | The public representative page now explains the T1Y Team / CHINARUICHI BscScan account model without unsupported personal claims. |
 | Review response | A reviewer-response document maps BscScan's common review notes to public T1Y evidence links. |
 | Latest review gap analysis | A latest-review gap analysis maps BscScan's newest feedback categories to current evidence, honest weak points, and next actions. |
@@ -69,6 +70,7 @@ The official contact email chinaruichi@gmail.com is intentionally published on t
 | Project information | `https://chinaruichi-cell.github.io/t1y-token-info/docs.html` |
 | Whitepaper | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
 | Whitepaper PDF | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-whitepaper.pdf` |
+| Protocol mechanics appendix | `https://chinaruichi-cell.github.io/t1y-token-info/docs/PROTOCOL_MECHANICS_APPENDIX.md` |
 | Team and representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
 | Explorer review package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
 | Reviewer response | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md` |
