@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>T1Y Whitepaper</title>
-    <meta name="description" content="Public whitepaper for T1Y on BNB Smart Chain, including protocol mechanics, contract addresses, ownership status, and risk disclosures.">
+    <meta name="description" content="Comprehensive public whitepaper for T1Y on BNB Smart Chain, including protocol design, contract addresses, ownership status, evidence links, and risk disclosures.">
     <link rel="icon" type="image/svg+xml" href="./assets/t1y-bscscan-logo-32.svg">
     <link rel="apple-touch-icon" href="./assets/t1y-official-logo-512.png">
     <style>
@@ -150,12 +150,14 @@
             <a href="./docs.html">Project Information</a>
             <a href="./operation-guide.html">Operation Guide</a>
             <a href="./security.html">Security & Ownership Status</a>
+            <a href="./team.html">Team & Representative</a>
+            <a href="./explorer-review.html">Explorer Review Package</a>
           </nav>
         </div>
       </header>
 
       <section>
-        <h2>Purpose</h2>
+        <h2>Executive Summary</h2>
         <p>
           T1Y is a BNB Smart Chain token protocol built around a T1Y/WBNB
           liquidity pool, contract-defined participation, hashrate accounting,
@@ -163,6 +165,24 @@
           behavior. The project publishes this page to summarize the protocol
           for users, explorers, wallets, scanners, and reviewers.
         </p>
+        <p>
+          The project is presented as an on-chain protocol rather than a
+          custodial service. Core evidence is intentionally public: verified
+          source code, deployment records, owner-renounce state, official
+          contract addresses, logo files, and operation notes are published in
+          this website and in the GitHub repository.
+        </p>
+      </section>
+
+      <section>
+        <h2>Design Principles</h2>
+        <ul>
+          <li><strong>On-chain verifiability:</strong> Contract state, token transfers, burn transfers, LP pair state, and ownership status can be checked on BscScan.</li>
+          <li><strong>Public evidence over claims:</strong> The project publishes contract addresses, deployment metadata, source verification data, and owner-check outputs for independent review.</li>
+          <li><strong>Non-custodial interaction:</strong> Users interact through their own wallets and should independently verify every address and wallet prompt.</li>
+          <li><strong>Explicit risk disclosure:</strong> T1Y contains non-standard BEP-20 mechanics, and those mechanics are disclosed instead of hidden.</li>
+          <li><strong>No guaranteed outcome:</strong> The protocol does not guarantee price performance, profit, redemption value, or principal protection.</li>
+        </ul>
       </section>
 
       <section>
@@ -176,27 +196,65 @@
           <dd><code>0x02A2060c730e009b4b2c2B9167f93e7af68D6Bbe</code> - fee swapper/helper contract.</dd>
           <dt>T1Y/WBNB Pair</dt>
           <dd><code>0x9d3153f4D033A54FbC8199eaA195655cecc92262</code> - PancakeSwap V2 pair.</dd>
+          <dt>PancakeSwap Router</dt>
+          <dd><code>0x10ED43C718714eb63d5aA57B78B54704E256024E</code> - BNB Smart Chain PancakeSwap V2 router.</dd>
+          <dt>WBNB</dt>
+          <dd><code>0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c</code> - wrapped BNB token used by the pair.</dd>
+          <dt>Dead address</dt>
+          <dd><code>0x000000000000000000000000000000000000dEaD</code> - public burn receiver used for token burn evidence.</dd>
         </dl>
       </section>
 
       <section>
-        <h2>Participation Model</h2>
+        <h2>Protocol Components</h2>
+        <ul>
+          <li><strong>Main token contract:</strong> Holds the primary token logic, participation records, pair address, extension address, fee swapper address, and owner-renounced configuration state.</li>
+          <li><strong>Extension contract:</strong> Provides reward and read-path logic for user status, reward estimation, pricing routes, and related protocol calculations.</li>
+          <li><strong>Fee swapper/helper contract:</strong> Supports fee conversion and helper flows tied to the main token deployment.</li>
+          <li><strong>Liquidity pair:</strong> The T1Y/WBNB PancakeSwap V2 pair is the public AMM liquidity reference for swaps and reserve state.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Participation Lifecycle</h2>
         <ul>
           <li>Users should verify the official token contract before any interaction.</li>
           <li>The intended participation path is contract-defined BNB transfer to the T1YToken contract, not direct interpretation of PancakeSwap purchases as deposits.</li>
           <li>LP, static hashrate, dynamic hashrate, referral, and node-level records are contract-accounted on chain.</li>
           <li>Reward claiming and LP redemption have specific contract-trigger paths described in the public operation guide.</li>
         </ul>
+        <p>
+          The public operation guide exists to reduce address confusion. It does
+          not ask users to sign approvals for this website and it does not request
+          private wallet credentials.
+        </p>
       </section>
 
       <section>
-        <h2>Reward Categories</h2>
+        <h2>Reward and Accounting Categories</h2>
         <ul>
           <li><strong>Static hashrate:</strong> Participation-related accounting based on contract-defined records.</li>
           <li><strong>Dynamic hashrate:</strong> Referral and team-related accounting defined by contract state.</li>
           <li><strong>Node rewards:</strong> Node-level reward paths involving T1Y and WBNB accounting.</li>
           <li><strong>Burn behavior:</strong> Protocol transfers to the standard dead address are publicly visible on BscScan.</li>
         </ul>
+      </section>
+
+      <section>
+        <h2>Burn and Pool Transparency</h2>
+        <p>
+          T1Y includes contract-defined burn behavior. Burn transfers can be
+          reviewed by filtering the token transfer table for the standard dead
+          address. The project maintains a public submission-prep file with
+          recent burn transaction examples so explorers can check representative
+          burn evidence without relying only on a written claim.
+        </p>
+        <dl>
+          <dt>Burn address</dt>
+          <dd><a href="https://bscscan.com/token/0x56b776483096c16a3eDD76156Eee47cdcbC05F7f?a=0x000000000000000000000000000000000000dEaD"><code>0x000000000000000000000000000000000000dEaD</code></a></dd>
+          <dt>Evidence notes</dt>
+          <dd><a href="./docs/BSCSCAN_SUBMISSION_PREP.md">BscScan submission preparation notes</a></dd>
+        </dl>
       </section>
 
       <section>
@@ -212,6 +270,10 @@
           <dd><a href="./security.html">Security & Ownership Status</a></dd>
           <dt>GitHub repository</dt>
           <dd><a href="https://github.com/chinaruichi-cell/t1y-token-info">https://github.com/chinaruichi-cell/t1y-token-info</a></dd>
+          <dt>Read-only owner check</dt>
+          <dd><a href="./deployments/t1y-readonly-owner-check-latest.json">Latest owner and wiring check JSON</a></dd>
+          <dt>Verification metadata</dt>
+          <dd><a href="./deployments/bsc-mainnet-2026-06-26-verification.json">BscScan verification metadata</a></dd>
         </dl>
       </section>
 
@@ -225,10 +287,43 @@
       </section>
 
       <section>
+        <h2>Public Representative and Communications</h2>
+        <p>
+          T1Y is represented publicly by the T1Y Team through the official
+          website, GitHub repository, BscScan account used for token submissions,
+          and official contact email. The project does not ask reviewers or users
+          for private keys, seed phrases, RPC endpoints, or wallet credentials.
+        </p>
+        <dl>
+          <dt>Representative page</dt>
+          <dd><a href="./team.html">Team & Public Representative Statement</a></dd>
+          <dt>Official contact</dt>
+          <dd><a href="mailto:chinaruichi@gmail.com">chinaruichi@gmail.com</a></dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Explorer Review Materials</h2>
+        <p>
+          To reduce review friction, the project maintains a dedicated explorer
+          review page that maps BscScan's token information requirements to
+          concrete public URLs. The page includes official website links, logo
+          files, whitepaper, source verification evidence, owner-status evidence,
+          burn evidence, official contact, and risk disclosure references.
+        </p>
+        <dl>
+          <dt>Review package</dt>
+          <dd><a href="./explorer-review.html">Explorer Review Package</a></dd>
+        </dl>
+      </section>
+
+      <section>
         <h2>Risks</h2>
         <ul>
           <li>T1Y is not a plain transfer-only token; it contains non-standard token and reward mechanics.</li>
           <li>Wallet and scanner products may show warnings for whitelist, external-call, fee, sell-impact, or balance-display behavior.</li>
+          <li>Referral, node, reward, and redemption paths depend on contract state and user operation. Incorrect wallet actions may not produce the expected result.</li>
+          <li>Burn behavior and sell-impact rules may affect received amounts, displayed balances, and user expectations.</li>
           <li>Market price, liquidity depth, slippage, user operation, wallet security, and smart-contract risks remain.</li>
           <li>No page on this website is financial advice or a guarantee of outcome.</li>
         </ul>

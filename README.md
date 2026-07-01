@@ -9,6 +9,8 @@ Intended GitHub Pages URL:
 - Whitepaper: `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html`
 - Operation guide: `https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html`
 - Security status: `https://chinaruichi-cell.github.io/t1y-token-info/security.html`
+- Team & public representative: `https://chinaruichi-cell.github.io/t1y-token-info/team.html`
+- Explorer review package: `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html`
 - BscScan logo SVG: `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-bscscan-logo-32.svg`
 - Official logo PNG: `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-official-logo-512.png`
 
@@ -39,6 +41,25 @@ The Gmail address above is intentionally published on the official website as
 the project contact address for BscScan/explorer verification until a
 project-domain mailbox is available. The site does not publish private keys,
 mnemonics, RPC endpoints, signer data, or wallet credentials.
+
+The site publishes only verified project-controlled public channels and does not
+add unsupported personal-profile claims. If an explorer requires an individual
+public profile, it should be a real profile controlled by the named person and
+updated to show T1Y involvement.
+
+## Explorer Review Package
+
+The page `explorer-review.html` maps BscScan-style review requirements to public
+evidence links:
+
+- official website and email
+- whitepaper and operation guide
+- logo SVG/PNG files
+- verified contract links
+- deployment and verification JSON
+- latest owner/wiring check JSON
+- burn evidence and transparency report
+- representative and communication policy
 
 To reproduce the owner and wiring check:
 

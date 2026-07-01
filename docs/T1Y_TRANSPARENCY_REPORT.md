@@ -13,6 +13,8 @@ This document is a public transparency report for T1Y. It is **not a formal thir
 | Whitepaper | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
 | Operation guide | `https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html` |
 | Security status | `https://chinaruichi-cell.github.io/t1y-token-info/security.html` |
+| Team & public representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
+| Explorer review package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
 | Official contact email | `chinaruichi@gmail.com` |
 
@@ -20,6 +22,11 @@ The official public representative for explorer and scanner communication is
 `T1Y Team / CHINARUICHI BscScan account`. The Gmail address above is published
 on the official website as the project contact address until a project-domain
 mailbox is available.
+
+This transparency report publishes only verified project-controlled public
+channels and does not add unsupported personal-profile claims. If an explorer
+requires an individual public professional profile, that profile should be real,
+controlled by the named person, and updated to show T1Y involvement.
 
 ## Contract Set
 

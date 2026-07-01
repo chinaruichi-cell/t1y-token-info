@@ -30,6 +30,62 @@ are available at:
 
 https://github.com/chinaruichi-cell/t1y-token-info
 https://chinaruichi-cell.github.io/t1y-token-info/security.html
+https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html
+```
+
+## Token Information Resubmission Package
+
+Use the verified-address token update form after logging in to BscScan:
+
+- `https://BscScan.com/contactus?id=4`
+
+Recommended field values:
+
+| Field | Value |
+| --- | --- |
+| Contract Address | `0x56b776483096c16a3eDD76156Eee47cdcbC05F7f` |
+| Project Name | `T1Y` |
+| Project Website | `https://chinaruichi-cell.github.io/t1y-token-info/` |
+| Project Email Address | `chinaruichi@gmail.com` |
+| Logo SVG | `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-bscscan-logo-32.svg` |
+| Whitepaper | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
+| GitHub | `https://github.com/chinaruichi-cell/t1y-token-info` |
+| Team / Representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
+| Explorer Review Package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
+| Project Sector | `DeFi` |
+
+Neutral project description:
+
+```text
+T1Y is a BNB Smart Chain protocol focused on on-chain liquidity, LP-based
+hashrate accounting, referral rewards, node-level rewards, contract-defined burn
+behavior, and transparent rules around the T1Y/WBNB liquidity pool. The project
+publishes verified contract addresses, source verification links, owner-renounce
+evidence, logo files, operation notes, and risk disclosures at the official
+website and GitHub repository.
+```
+
+Recommended comment:
+
+```text
+This resubmission adds a fuller public information package after the previous
+review response. Public evidence now includes:
+
+- expanded whitepaper
+- operation guide
+- team/public representative statement
+- explorer review package
+- public logo SVG and PNG
+- GitHub repository with deployment and verification JSON
+- latest owner/wiring check JSON
+- burn evidence and transparency report
+
+The official contact email chinaruichi@gmail.com is intentionally published on
+the official website as the project's primary contact email until a
+project-domain mailbox is available.
+
+If a personal professional profile is required, the project will provide only a
+real profile controlled by the named person and updated to show T1Y involvement.
 ```
 
 ## Burn Details
@@ -102,3 +158,5 @@ the dead address. Some transactions contain multiple burn transfer rows.
 - If BscScan asks for a single burn event, submit the latest successful burn
   transaction hash and mention that the contract performs recurring burns.
 - Submit only after explicit approval.
+- Submit token information through the verified-address/token-owner form, not by
+  sending a separate Name Tag email without a verified address/signature context.
