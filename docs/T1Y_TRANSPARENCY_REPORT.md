@@ -4,6 +4,23 @@ Updated: 2026-06-30
 
 This document is a public transparency report for T1Y. It is **not a formal third-party security audit**. It is intended to give users, explorers, wallets, and scanners a clear reference for deployed contracts, ownership status, source verification, and known non-standard token behavior.
 
+## Official Public References
+
+| Reference | URL |
+| --- | --- |
+| Official website | `https://chinaruichi-cell.github.io/t1y-token-info/` |
+| Project information | `https://chinaruichi-cell.github.io/t1y-token-info/docs.html` |
+| Whitepaper | `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html` |
+| Operation guide | `https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html` |
+| Security status | `https://chinaruichi-cell.github.io/t1y-token-info/security.html` |
+| GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
+| Official contact email | `chinaruichi@gmail.com` |
+
+The official public representative for explorer and scanner communication is
+`T1Y Team / CHINARUICHI BscScan account`. The Gmail address above is published
+on the official website as the project contact address until a project-domain
+mailbox is available.
+
 ## Contract Set
 
 | Component | Address | Purpose |

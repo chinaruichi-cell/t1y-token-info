@@ -6,6 +6,8 @@ Intended GitHub Pages URL:
 
 - Website: `https://chinaruichi-cell.github.io/t1y-token-info/`
 - Project information: `https://chinaruichi-cell.github.io/t1y-token-info/docs.html`
+- Whitepaper: `https://chinaruichi-cell.github.io/t1y-token-info/whitepaper.html`
+- Operation guide: `https://chinaruichi-cell.github.io/t1y-token-info/operation-guide.html`
 - Security status: `https://chinaruichi-cell.github.io/t1y-token-info/security.html`
 - BscScan logo SVG: `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-bscscan-logo-32.svg`
 - Official logo PNG: `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-official-logo-512.png`
@@ -27,6 +29,16 @@ scanner review:
 - Latest read-only owner check: `deployments/t1y-readonly-owner-check-latest.json`
 - Reproducible owner check script: `scripts/verify-t1y-readonly-state.cjs`
 - Transparency report: `docs/T1Y_TRANSPARENCY_REPORT.md`
+
+## Official Contact and Public Representative
+
+- Official contact email: `chinaruichi@gmail.com`
+- Public representative for explorer/scanner communications: `T1Y Team / CHINARUICHI BscScan account`
+
+The Gmail address above is intentionally published on the official website as
+the project contact address for BscScan/explorer verification until a
+project-domain mailbox is available. The site does not publish private keys,
+mnemonics, RPC endpoints, signer data, or wallet credentials.
 
 To reproduce the owner and wiring check:
 

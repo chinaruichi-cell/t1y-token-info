@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>T1Y Operation Guide</title>
+    <meta name="description" content="Public T1Y user operation guide for official contract addresses, BNB Chain interactions, reward queries, and risk notes.">
+    <link rel="icon" type="image/svg+xml" href="./assets/t1y-bscscan-logo-32.svg">
+    <link rel="apple-touch-icon" href="./assets/t1y-official-logo-512.png">
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #08090d;
+        --text: #f5f1e6;
+        --muted: #a9b0bd;
+        --line: #2a3140;
+        --gold: #d6a84a;
+        --blue: #6ca8ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: min(940px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 48px 0;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: 72px 1fr;
+        gap: 20px;
+        align-items: center;
+        padding-bottom: 28px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      img {
+        width: 72px;
+        height: 72px;
+        border-radius: 16px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(30px, 5vw, 44px);
+        line-height: 1.08;
+        letter-spacing: 0;
+      }
+
+      .subtitle {
+        margin: 8px 0 0;
+        color: var(--muted);
+      }
+
+      .nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin-top: 18px;
+      }
+
+      section {
+        padding: 28px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        color: var(--gold);
+        font-size: 18px;
+        letter-spacing: 0;
+      }
+
+      p {
+        margin: 0 0 12px;
+      }
+
+      ul,
+      ol {
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      dl {
+        display: grid;
+        grid-template-columns: 210px 1fr;
+        gap: 12px 18px;
+        margin: 0;
+      }
+
+      dt {
+        color: var(--muted);
+      }
+
+      dd {
+        margin: 0;
+        overflow-wrap: anywhere;
+      }
+
+      a {
+        color: var(--blue);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      code {
+        color: var(--text);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.94em;
+      }
+
+      .notice {
+        color: var(--muted);
+      }
+
+      @media (max-width: 720px) {
+        header,
+        dl {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="./assets/t1y-official-logo-512.png" alt="T1Y official logo">
+        <div>
+          <h1>T1Y Operation Guide</h1>
+          <p class="subtitle">Public read-only guide for official addresses and contract interactions.</p>
+          <nav class="nav" aria-label="Site links">
+            <a href="./index.html">Home</a>
+            <a href="./docs.html">Project Information</a>
+            <a href="./whitepaper.html">Whitepaper</a>
+            <a href="./security.html">Security & Ownership Status</a>
+          </nav>
+        </div>
+      </header>
+
+      <section>
+        <h2>Official Addresses</h2>
+        <dl>
+          <dt>Main token / deposit contract</dt>
+          <dd><code>0x56b776483096c16a3eDD76156Eee47cdcbC05F7f</code></dd>
+          <dt>Read/reward extension</dt>
+          <dd><code>0x0379d39190E125b530E84254a132563E4EaE37d2</code></dd>
+          <dt>Fee swapper</dt>
+          <dd><code>0x02A2060c730e009b4b2c2B9167f93e7af68D6Bbe</code></dd>
+          <dt>T1Y/WBNB pair</dt>
+          <dd><code>0x9d3153f4D033A54FbC8199eaA195655cecc92262</code></dd>
+          <dt>Dead address</dt>
+          <dd><code>0x000000000000000000000000000000000000dEaD</code></dd>
+          <dt>WBNB</dt>
+          <dd><code>0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c</code></dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Before Interacting</h2>
+        <ul>
+          <li>Use BNB Smart Chain only.</li>
+          <li>Verify the address on BscScan before sending any transaction.</li>
+          <li>Keep enough BNB for gas.</li>
+          <li>Do not send private keys, seed phrases, or wallet screenshots to anyone.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Common Contract Paths</h2>
+        <dl>
+          <dt>Bind referral</dt>
+          <dd>Referrer sends <code>0.01 T1Y</code> to the new user's wallet.</dd>
+          <dt>Deposit path</dt>
+          <dd>User sends BNB to the main T1YToken contract. Direct PancakeSwap purchases are not treated as the same as the contract deposit record.</dd>
+          <dt>Claim static/dynamic T1Y</dt>
+          <dd>User sends a very small non-zero T1Y transfer to their own wallet address.</dd>
+          <dt>Claim node WBNB</dt>
+          <dd>User sends <code>0 T1Y</code> to the dead address.</dd>
+          <dt>Claim node T1Y</dt>
+          <dd>User sends <code>0 T1Y</code> to the main T1YToken contract address.</dd>
+          <dt>Redeem LP</dt>
+          <dd>User approves LP to the T1YToken contract first, then triggers the redemption path according to contract rules.</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Read-only Queries</h2>
+        <ol>
+          <li>Open BscScan on BNB Smart Chain.</li>
+          <li>Open the T1YTokenExt contract address: <code>0x0379d39190E125b530E84254a132563E4EaE37d2</code>.</li>
+          <li>Open <code>Contract</code>, then <code>Read Contract</code>.</li>
+          <li>Use <code>getUserInfo(address)</code> to check LP quantity, static hashrate, dynamic hashrate, and node level.</li>
+          <li>Use <code>getPendingRewards(address)</code> to check currently pending rewards.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Risk Notes</h2>
+        <p class="notice">
+          This guide is not financial advice. T1Y contains non-standard BEP-20
+          behavior and contract-defined reward logic. Users should understand
+          wallet prompts, slippage, sell impact, redemption rules, reward windows,
+          liquidity risk, and smart-contract risk before interacting.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

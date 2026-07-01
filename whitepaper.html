@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>T1Y Whitepaper</title>
+    <meta name="description" content="Public whitepaper for T1Y on BNB Smart Chain, including protocol mechanics, contract addresses, ownership status, and risk disclosures.">
+    <link rel="icon" type="image/svg+xml" href="./assets/t1y-bscscan-logo-32.svg">
+    <link rel="apple-touch-icon" href="./assets/t1y-official-logo-512.png">
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #08090d;
+        --text: #f5f1e6;
+        --muted: #a9b0bd;
+        --line: #2a3140;
+        --gold: #d6a84a;
+        --blue: #6ca8ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: min(940px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 48px 0;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: 72px 1fr;
+        gap: 20px;
+        align-items: center;
+        padding-bottom: 28px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      img {
+        width: 72px;
+        height: 72px;
+        border-radius: 16px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(30px, 5vw, 44px);
+        line-height: 1.08;
+        letter-spacing: 0;
+      }
+
+      .subtitle {
+        margin: 8px 0 0;
+        color: var(--muted);
+      }
+
+      .nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin-top: 18px;
+      }
+
+      section {
+        padding: 28px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        color: var(--gold);
+        font-size: 18px;
+        letter-spacing: 0;
+      }
+
+      p {
+        margin: 0 0 12px;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      dl {
+        display: grid;
+        grid-template-columns: 210px 1fr;
+        gap: 12px 18px;
+        margin: 0;
+      }
+
+      dt {
+        color: var(--muted);
+      }
+
+      dd {
+        margin: 0;
+        overflow-wrap: anywhere;
+      }
+
+      a {
+        color: var(--blue);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      code {
+        color: var(--text);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.94em;
+      }
+
+      .notice {
+        color: var(--muted);
+      }
+
+      @media (max-width: 720px) {
+        header,
+        dl {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="./assets/t1y-official-logo-512.png" alt="T1Y official logo">
+        <div>
+          <h1>T1Y Whitepaper</h1>
+          <p class="subtitle">Public protocol overview for BNB Smart Chain.</p>
+          <nav class="nav" aria-label="Site links">
+            <a href="./index.html">Home</a>
+            <a href="./docs.html">Project Information</a>
+            <a href="./operation-guide.html">Operation Guide</a>
+            <a href="./security.html">Security & Ownership Status</a>
+          </nav>
+        </div>
+      </header>
+
+      <section>
+        <h2>Purpose</h2>
+        <p>
+          T1Y is a BNB Smart Chain token protocol built around a T1Y/WBNB
+          liquidity pool, contract-defined participation, hashrate accounting,
+          referral rewards, node-level rewards, sell-impact logic, and burn
+          behavior. The project publishes this page to summarize the protocol
+          for users, explorers, wallets, scanners, and reviewers.
+        </p>
+      </section>
+
+      <section>
+        <h2>Contract Architecture</h2>
+        <dl>
+          <dt>T1YToken</dt>
+          <dd><code>0x56b776483096c16a3eDD76156Eee47cdcbC05F7f</code> - main BEP-20 token and participation logic.</dd>
+          <dt>T1YTokenExt</dt>
+          <dd><code>0x0379d39190E125b530E84254a132563E4EaE37d2</code> - read and reward extension logic.</dd>
+          <dt>T1YFeeSwapper</dt>
+          <dd><code>0x02A2060c730e009b4b2c2B9167f93e7af68D6Bbe</code> - fee swapper/helper contract.</dd>
+          <dt>T1Y/WBNB Pair</dt>
+          <dd><code>0x9d3153f4D033A54FbC8199eaA195655cecc92262</code> - PancakeSwap V2 pair.</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Participation Model</h2>
+        <ul>
+          <li>Users should verify the official token contract before any interaction.</li>
+          <li>The intended participation path is contract-defined BNB transfer to the T1YToken contract, not direct interpretation of PancakeSwap purchases as deposits.</li>
+          <li>LP, static hashrate, dynamic hashrate, referral, and node-level records are contract-accounted on chain.</li>
+          <li>Reward claiming and LP redemption have specific contract-trigger paths described in the public operation guide.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Reward Categories</h2>
+        <ul>
+          <li><strong>Static hashrate:</strong> Participation-related accounting based on contract-defined records.</li>
+          <li><strong>Dynamic hashrate:</strong> Referral and team-related accounting defined by contract state.</li>
+          <li><strong>Node rewards:</strong> Node-level reward paths involving T1Y and WBNB accounting.</li>
+          <li><strong>Burn behavior:</strong> Protocol transfers to the standard dead address are publicly visible on BscScan.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Ownership and Source Transparency</h2>
+        <p>
+          T1YToken and T1YFeeSwapper ownership have been renounced to the zero
+          address. T1YTokenExt does not expose an Ownable owner control path in
+          this deployment. Contract source and deployment materials are published
+          in the project GitHub repository.
+        </p>
+        <dl>
+          <dt>Security page</dt>
+          <dd><a href="./security.html">Security & Ownership Status</a></dd>
+          <dt>GitHub repository</dt>
+          <dd><a href="https://github.com/chinaruichi-cell/t1y-token-info">https://github.com/chinaruichi-cell/t1y-token-info</a></dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Sale and Allocation Disclosure</h2>
+        <p>
+          This website does not publish an ICO, IEO, public-sale, private-sale,
+          seed-sale, presale, premine, or guaranteed-return campaign. Users
+          should rely on verified contract state and their own risk assessment.
+        </p>
+      </section>
+
+      <section>
+        <h2>Risks</h2>
+        <ul>
+          <li>T1Y is not a plain transfer-only token; it contains non-standard token and reward mechanics.</li>
+          <li>Wallet and scanner products may show warnings for whitelist, external-call, fee, sell-impact, or balance-display behavior.</li>
+          <li>Market price, liquidity depth, slippage, user operation, wallet security, and smart-contract risks remain.</li>
+          <li>No page on this website is financial advice or a guarantee of outcome.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Official Contact</h2>
+        <p>
+          The official project contact address is
+          <a href="mailto:chinaruichi@gmail.com">chinaruichi@gmail.com</a>. This
+          public Gmail address is intentionally listed on the official website for
+          BscScan and explorer verification until a project-domain mailbox is
+          available.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
