@@ -187,6 +187,24 @@
       </section>
 
       <section>
+        <h2>Terminology</h2>
+        <dl>
+          <dt>Participation record</dt>
+          <dd>A contract-defined user state created through the intended T1Y participation path. It should not be confused with an ordinary token buy on an exchange interface.</dd>
+          <dt>Static hashrate</dt>
+          <dd>Participation-related accounting used by the protocol's reward calculation paths.</dd>
+          <dt>Dynamic hashrate</dt>
+          <dd>Referral and team-related accounting derived from contract state rather than off-chain spreadsheets.</dd>
+          <dt>Node level</dt>
+          <dd>A contract-readable user level used by the node reward path and displayed by the read-only user query page.</dd>
+          <dt>Burn transfer</dt>
+          <dd>A token transfer to the standard dead address, visible in BscScan token transfer records.</dd>
+          <dt>Owner renounce</dt>
+          <dd>The deployed owner-controlled contracts have their owner set to the zero address, making owner-only setters unavailable to a project owner.</dd>
+        </dl>
+      </section>
+
+      <section>
         <h2>Contract Architecture</h2>
         <dl>
           <dt>T1YToken</dt>
@@ -217,6 +235,26 @@
       </section>
 
       <section>
+        <h2>Public Evidence Model</h2>
+        <p>
+          T1Y's public evidence package is designed so an explorer reviewer can
+          verify the deployment without private files. The official website links
+          to contract pages, deployment JSON, verification metadata, owner-check
+          output, burn examples, logo files, and form-ready submission text.
+        </p>
+        <dl>
+          <dt>Deployment record</dt>
+          <dd><a href="./deployments/bsc-mainnet-2026-06-26-public.json">Public BSC deployment JSON</a></dd>
+          <dt>Compiler evidence</dt>
+          <dd><a href="./deployments/bsc-mainnet-2026-06-26-standard-input.json">BscScan standard JSON input</a></dd>
+          <dt>Owner and wiring check</dt>
+          <dd><a href="./deployments/t1y-readonly-owner-check-latest.json">Latest read-only owner check JSON</a></dd>
+          <dt>Reviewer response</dt>
+          <dd><a href="./docs/BSCSCAN_REVIEW_RESPONSE.md">BscScan reviewer response package</a></dd>
+        </dl>
+      </section>
+
+      <section>
         <h2>Participation Lifecycle</h2>
         <ul>
           <li>Users should verify the official token contract before any interaction.</li>
@@ -232,12 +270,46 @@
       </section>
 
       <section>
+        <h2>User Operation Boundaries</h2>
+        <p>
+          The project separates read-only information pages from wallet actions.
+          The official public website and documentation pages do not sign
+          transactions, request approvals, or ask users to connect wallets. Any
+          actual token interaction must be checked in the user's wallet and on
+          BscScan before execution.
+        </p>
+        <ul>
+          <li>The official website is an information site for token review and user education.</li>
+          <li>The user query DApp is intended as a read-only status helper and should not replace direct contract verification.</li>
+          <li>Users should not treat wallet token balances, scanner labels, or third-party UI notices as the only source of truth.</li>
+          <li>Contract state, transaction receipts, token transfers, and read-contract values remain the authoritative public records.</li>
+        </ul>
+      </section>
+
+      <section>
         <h2>Reward and Accounting Categories</h2>
         <ul>
           <li><strong>Static hashrate:</strong> Participation-related accounting based on contract-defined records.</li>
           <li><strong>Dynamic hashrate:</strong> Referral and team-related accounting defined by contract state.</li>
           <li><strong>Node rewards:</strong> Node-level reward paths involving T1Y and WBNB accounting.</li>
           <li><strong>Burn behavior:</strong> Protocol transfers to the standard dead address are publicly visible on BscScan.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Scanner and Wallet Interpretation</h2>
+        <p>
+          T1Y is not a plain transfer-only BEP-20 token. Wallets and scanners may
+          detect whitelist checks, external contract calls, sell-impact logic,
+          balance-display differences, or fee-related behavior. These notices
+          should be interpreted alongside verified source code and the current
+          owner-renounced state.
+        </p>
+        <ul>
+          <li>Owner-controlled setters on T1YToken are no longer callable by a project owner after owner renounce.</li>
+          <li>Owner-controlled controls on T1YFeeSwapper are no longer callable by a project owner after owner renounce.</li>
+          <li>T1YTokenExt does not expose an Ownable owner control path in this deployment.</li>
+          <li>Non-standard mechanics still exist in the code and are disclosed as token-mechanism behavior, not hidden.</li>
         </ul>
       </section>
 
@@ -279,6 +351,23 @@
       </section>
 
       <section>
+        <h2>Audit and Review Status</h2>
+        <p>
+          This document, the transparency report, and the reviewer response are
+          public verification materials. They are not a substitute for a formal
+          third-party smart-contract audit. The current objective is to make
+          source verification, owner status, burn evidence, and project
+          information easier for explorers and wallets to review.
+        </p>
+        <ul>
+          <li>Verified source code is available on BscScan for the deployed contract set.</li>
+          <li>Owner-renounce evidence is published as both BscScan read-contract state and a reproducible read-only JSON check.</li>
+          <li>The project does not present this package as a formal security audit certificate.</li>
+          <li>If a formal audit is obtained later, it should be published separately and submitted to BscScan through the proper audit-report channel.</li>
+        </ul>
+      </section>
+
+      <section>
         <h2>Sale and Allocation Disclosure</h2>
         <p>
           This website does not publish an ICO, IEO, public-sale, private-sale,
@@ -317,6 +406,10 @@
           <dd><a href="./explorer-review.html">Explorer Review Package</a></dd>
           <dt>PDF edition</dt>
           <dd><a href="./assets/t1y-whitepaper.pdf">Download T1Y Whitepaper PDF</a></dd>
+          <dt>Reviewer response</dt>
+          <dd><a href="./docs/BSCSCAN_REVIEW_RESPONSE.md">Response to BscScan reviewer notes</a></dd>
+          <dt>Form payload</dt>
+          <dd><a href="./docs/BSCSCAN_FORM_PAYLOAD.md">Copy-ready BscScan token update fields</a></dd>
         </dl>
       </section>
 

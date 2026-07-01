@@ -209,7 +209,43 @@
       </section>
 
       <section>
-        <h2>5. Participation and Accounting Model</h2>
+        <h2>5. Terminology</h2>
+        <dl>
+          <dt>Participation record</dt>
+          <dd>Contract-defined user state created through the intended T1Y participation path.</dd>
+          <dt>Static hashrate</dt>
+          <dd>Participation-related accounting used by protocol reward calculation paths.</dd>
+          <dt>Dynamic hashrate</dt>
+          <dd>Referral and team-related accounting derived from contract state.</dd>
+          <dt>Node level</dt>
+          <dd>A contract-readable user level used by node reward paths.</dd>
+          <dt>Burn transfer</dt>
+          <dd>A token transfer to the standard dead address, visible in BscScan records.</dd>
+          <dt>Owner renounce</dt>
+          <dd>Owner-controlled contracts have their owner set to the zero address.</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>6. Public Evidence Model</h2>
+        <p>
+          The official website links to contract pages, deployment JSON,
+          verification metadata, owner-check output, burn examples, logo files,
+          and form-ready submission text so reviewers can verify public evidence
+          without private files.
+        </p>
+        <dl>
+          <dt>Deployment record</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/deployments/bsc-mainnet-2026-06-26-public.json</dd>
+          <dt>Owner check</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/deployments/t1y-readonly-owner-check-latest.json</dd>
+          <dt>Reviewer response</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>7. Participation and Accounting Model</h2>
         <p>
           T1Y participation is based on contract-defined BNB transfer and LP
           accounting paths. Direct market purchases through PancakeSwap are not
@@ -225,7 +261,22 @@
       </section>
 
       <section>
-        <h2>6. Burn and Liquidity Transparency</h2>
+        <h2>8. User Operation Boundaries</h2>
+        <p>
+          Official public pages are information pages. They do not sign
+          transactions, request approvals, or ask for wallet credentials. Users
+          should verify wallet prompts, BscScan transaction receipts, and
+          read-contract values before treating a third-party UI as authoritative.
+        </p>
+        <ul>
+          <li>The official website is used for token review and education.</li>
+          <li>The user query DApp is a read-only status helper.</li>
+          <li>Contract state and transaction receipts remain the public source of truth.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>9. Burn and Liquidity Transparency</h2>
         <p>
           T1Y includes contract-defined burn behavior. Burn transfers can be
           reviewed by filtering BscScan token transfers for the standard dead
@@ -241,7 +292,7 @@
       </section>
 
       <section>
-        <h2>7. Ownership and Source Transparency</h2>
+        <h2>10. Ownership and Source Transparency</h2>
         <ul>
           <li>T1YToken owner is <code>0x0000000000000000000000000000000000000000</code>.</li>
           <li>T1YFeeSwapper owner is <code>0x0000000000000000000000000000000000000000</code>.</li>
@@ -251,7 +302,33 @@
       </section>
 
       <section>
-        <h2>8. Sale and Allocation Disclosure</h2>
+        <h2>11. Scanner and Wallet Interpretation</h2>
+        <p>
+          T1Y is not a plain transfer-only BEP-20 token. Wallets and scanners may
+          detect whitelist checks, external contract calls, sell-impact logic,
+          balance-display differences, or fee-related behavior. These notices
+          should be interpreted alongside verified source code and current
+          owner-renounced state.
+        </p>
+        <ul>
+          <li>Owner-controlled setters on T1YToken are not callable by a project owner after renounce.</li>
+          <li>Owner-controlled controls on T1YFeeSwapper are not callable by a project owner after renounce.</li>
+          <li>T1YTokenExt does not expose an Ownable owner control path in this deployment.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>12. Audit and Review Status</h2>
+        <p>
+          This whitepaper, transparency report, and reviewer response are public
+          verification materials. They are not a formal third-party
+          smart-contract audit certificate. If a formal audit is obtained later,
+          it should be published and submitted through the proper audit channel.
+        </p>
+      </section>
+
+      <section>
+        <h2>13. Sale and Allocation Disclosure</h2>
         <p>
           This website does not publish an ICO, IEO, public-sale, private-sale,
           seed-sale, presale, premine, or guaranteed-return campaign. Users
@@ -260,7 +337,7 @@
       </section>
 
       <section>
-        <h2>9. Public Representative</h2>
+        <h2>14. Public Representative</h2>
         <p>
           T1Y is represented publicly by the T1Y Team through the official
           website, GitHub repository, BscScan account used for token submissions,
@@ -271,7 +348,7 @@
       </section>
 
       <section>
-        <h2>10. Risk Disclosures</h2>
+        <h2>15. Risk Disclosures</h2>
         <ul>
           <li>T1Y is not a plain transfer-only token and includes non-standard BEP-20 behavior.</li>
           <li>Scanner products may flag whitelist, external call, fee, sell-impact, or balance-display behavior.</li>
@@ -282,7 +359,7 @@
       </section>
 
       <section>
-        <h2>11. Explorer Submission Notes</h2>
+        <h2>16. Explorer Submission Notes</h2>
         <p>
           Reviewers can use the Explorer Review Package as the main index for
           BscScan-style token information requirements. It maps official
@@ -290,6 +367,14 @@
           deployment evidence, burn evidence, and risk disclosures to public
           URLs.
         </p>
+        <dl>
+          <dt>Explorer package</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html</dd>
+          <dt>Form payload</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md</dd>
+          <dt>Reviewer response</dt>
+          <dd>https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md</dd>
+        </dl>
       </section>
     </main>
   </body>
