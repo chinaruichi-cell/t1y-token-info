@@ -13,6 +13,7 @@ Intended GitHub Pages URL:
 - Team & public representative: `https://chinaruichi-cell.github.io/t1y-token-info/team.html`
 - Explorer review package: `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html`
 - BscScan review summary: `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_SUMMARY.md`
+- BscScan reviewer response: `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md`
 - BscScan form payload: `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md`
 - BscScan logo SVG: `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-bscscan-logo-32.svg`
 - Official logo PNG: `https://chinaruichi-cell.github.io/t1y-token-info/assets/t1y-official-logo-512.png`
@@ -64,6 +65,7 @@ evidence links:
 - burn evidence and transparency report
 - representative and communication policy
 - copy-ready BscScan token update form payload
+- reviewer-note response mapped to BscScan's latest feedback
 
 To reproduce the owner and wiring check:
 

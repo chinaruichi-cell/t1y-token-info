@@ -122,6 +122,12 @@ BscScan Review Summary:
 https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_SUMMARY.md
 ```
 
+BscScan Reviewer Response:
+
+```text
+https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md
+```
+
 ## Sale Information
 
 Public Sale / ICO / IEO:
@@ -178,6 +184,7 @@ Public evidence now includes:
 - team/public representative statement
 - explorer review package
 - BscScan review summary
+- BscScan reviewer response mapped to the latest review notes
 - public logo SVG and PNG
 - GitHub repository with deployment and verification JSON
 - latest owner/wiring check JSON

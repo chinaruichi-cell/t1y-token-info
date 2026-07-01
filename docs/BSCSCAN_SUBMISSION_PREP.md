@@ -55,6 +55,7 @@ Recommended field values:
 | Explorer Review Package | `https://chinaruichi-cell.github.io/t1y-token-info/explorer-review.html` |
 | Review Summary | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_SUMMARY.md` |
 | Copy-ready Form Payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
+| Reviewer Response | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md` |
 | Project Sector | `DeFi` |
 
 Neutral project description:

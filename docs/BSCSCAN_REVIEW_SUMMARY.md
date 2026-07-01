@@ -18,6 +18,7 @@ reviewers to public evidence instead of private files.
 | Security status | `https://chinaruichi-cell.github.io/t1y-token-info/security.html` |
 | Team and public representative | `https://chinaruichi-cell.github.io/t1y-token-info/team.html` |
 | Copy-ready form payload | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md` |
+| Reviewer response | `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md` |
 | GitHub repository | `https://github.com/chinaruichi-cell/t1y-token-info` |
 | Official email | `chinaruichi@gmail.com` |
 
@@ -86,6 +87,10 @@ T1Y involvement.
 The copy-ready token update form values are published at:
 
 `https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_FORM_PAYLOAD.md`
+
+The reviewer-note response is published at:
+
+`https://chinaruichi-cell.github.io/t1y-token-info/docs/BSCSCAN_REVIEW_RESPONSE.md`
 
 This payload should be used only through the verified-address token update form
 after logging in to the BscScan account.
