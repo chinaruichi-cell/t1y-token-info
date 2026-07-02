@@ -17,10 +17,12 @@ This document explains the current official project-domain email status.
 | MX provider | Tencent Exmail |
 | SPF | `v=spf1 include:spf.mail.qq.com ~all` |
 | DMARC | `v=DMARC1; p=none; rua=mailto:contact@t1y.org` |
-| DKIM | Pending Tencent-provided DNS value |
+| DKIM | Published at `atmb2607._domainkey.t1y.org` |
 
 The official T1Y contact email is now `contact@t1y.org`. The mailbox has been
-created in Tencent Exmail and tested for both receiving and sending.
+created in Tencent Exmail and tested for both receiving and sending. DKIM is
+also published for Tencent Exmail signing under the selector
+`atmb2607._domainkey`.
 
 ## Why This Is Published
 
@@ -45,8 +47,16 @@ response, and public transparency materials.
 1. MX records point to Tencent Exmail.
 2. SPF authorizes Tencent Exmail.
 3. DMARC is published in monitoring mode for domain-level mail policy visibility.
-4. DKIM should be added after Tencent Exmail provides the exact selector and
-   TXT value.
+4. DKIM is published at `atmb2607._domainkey.t1y.org`.
+
+Public DNS verification:
+
+```text
+dig +short @1.1.1.1 atmb2607._domainkey.t1y.org TXT
+dig +short @8.8.8.8 atmb2607._domainkey.t1y.org TXT
+```
+
+Both resolvers return the Tencent Exmail DKIM TXT record.
 
 ## Reviewer Note
 
