@@ -18,6 +18,7 @@ Token information:
 - Security and ownership status: `https://t1y.org/security.html`
 - GitHub repository: `https://github.com/chinaruichi-cell/t1y-token-info`
 - Official contact email: `contact@t1y.org`
+- Domain email status: `https://t1y.org/docs/DOMAIN_EMAIL_READINESS.md`
 
 New public verification materials in the GitHub repository:
 
@@ -38,6 +39,8 @@ Current read-only ownership state:
 The BscScan account has also verified ownership of the submitted token contract address.
 
 Please review the updated materials for the T1Y token information update request.
+Future reviewer communication can use the official project-domain mailbox
+`contact@t1y.org`.
 
 Thank you.
 
@@ -64,6 +67,8 @@ Official website: `https://t1y.org/`
 Security status page: `https://t1y.org/security.html`
 
 Public verification repository: `https://github.com/chinaruichi-cell/t1y-token-info`
+
+Official contact email: `contact@t1y.org`
 
 Current TokenPocket scan displays whitelist, mutable-tax, and external-call notices. These notices appear to be based on static code patterns, but the current on-chain ownership state shows that the project can no longer modify the owner-gated controls.
 
@@ -100,6 +105,8 @@ Token contract: `0x56b776483096c16a3eDD76156Eee47cdcbC05F7f`
 Security status page: `https://t1y.org/security.html`
 
 Public verification repository: `https://github.com/chinaruichi-cell/t1y-token-info`
+
+Official contact email: `contact@t1y.org`
 
 The scanner currently flags whitelist, mutable-tax, or external-call risks. We understand these mechanisms exist in the verified source, but the owner-gated controls are no longer callable because ownership has been renounced.
 
